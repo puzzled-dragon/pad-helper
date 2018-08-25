@@ -438,4 +438,5 @@
     <string name="logs_uploaded_2">日志上载成功 - 但更新本地日志失败</string>
     <string name="logs_uploaded_3">错误 %1$d - 无法上载日志…</string>
     <string name="delete_logs_error">删除日志发生错误 : %1$s</string>
+    <string name="overlay_tpa">TPA</string>
 </resources>

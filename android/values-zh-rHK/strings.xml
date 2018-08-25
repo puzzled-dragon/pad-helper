@@ -24,8 +24,6 @@
     <string name="solutionList_rank_text">等級</string>
     <string name="solutionList_combos_text">連擊</string>
     <string name="solutionList_length_text">長度</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">空白歡迎介面</string>
     <string name="appMenuHome">主頁</string>
     <string name="appMenuProfiles">隊長技設定檔</string>
@@ -440,4 +438,5 @@
     <string name="logs_uploaded_2">記錄檔上傳成功 - 但更新本機記錄檔失敗</string>
     <string name="logs_uploaded_3">錯誤 %1$d - 無法上傳記錄檔…</string>
     <string name="delete_logs_error">刪除記錄檔發生錯誤 : %1$s</string>
+    <string name="overlay_tpa">TPA</string>
 </resources>

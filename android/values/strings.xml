@@ -439,4 +439,5 @@
     <string name="leader_awokenSpica">Awoken Spica</string>
     <string name="solutionList_matched_short">M : %1$s</string>
     <string name="solutionList_remaining_short">R : %1$s</string>
+    <string name="overlay_tpa">TPA</string>
 </resources>
