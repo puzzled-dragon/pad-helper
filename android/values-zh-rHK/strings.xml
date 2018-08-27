@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">智龍助手</string>
+    <string name="app_name">龍圖助手</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">設置</string>
-    <string name="title_activity_screen_capture">智龍助手</string>
+    <string name="title_activity_screen_capture">龍圖助手</string>
     <string name="start_recording">開始</string>
     <string name="solve">求解</string>
     <string name="overlay_save_options">保存</string>
@@ -52,7 +52,7 @@
     <string name="help1">您可以使用“主頁”中的“啟動”按鈕啟動重疊視窗。</string>
     <string name="help2">向左滑動以減少重疊視窗面積。</string>
     <string name="help3">向右滑動以恢復重疊視窗面積。</string>
-    <string name="help4">在通知列按一下“智龍助手”通知，您可以隨時回到程式主頁。</string>
+    <string name="help4">在通知列按一下“龍圖助手”通知，您可以隨時回到程式主頁。</string>
     <string name="help5">還可以切換背景透明度，或退出重疊視窗。</string>
     <string name="help6">對當前版面求解後, 第一個解(演算法最優者)將出現在螢幕上。但你仍然可以看到其他的解；按一下當前路徑解摘要就可以展開路徑解清單。</string>
     <string name="help7">如果您擷取的畫面不觸發計算，請用檔案瀏覽器核對存儲擷圖的確切位置，並在選項中選擇螢幕擷圖目錄的正確路徑。</string>
@@ -182,14 +182,14 @@
     <string name="optionAuthorizeSendOrbsSubText">允許應用程式在檢測到未知寶珠時向開發人員發送圖片。這只會發送一個 48x48 的小圖像。</string>
     <string name="optionLowAlphaOnStart">背景透明</string>
     <string name="optionLowAlphaOnStartSubText">選擇重疊視窗是否以透明背景啟動</string>
-    <string name="eula"><![CDATA[<h1>智龍助手最終用戶授權協定</h1><p><em>注：以英文原文為准，原文附于中文翻譯後方。</em></p><p>此應用程式不屬於<em>GungHo線上娛樂株式會社</em>或<em>智龍迷城</em>。且它並非<em>智龍迷城</em>的官方應用。<br/><strong>您不能以任何會損害其他玩家利益或有利於您遊戲進度的方式使用此應用程式。</strong><br/>這個應用程式只能用來進步和提高你的轉珠技能，在遊戲中顯示疊珠路徑並從中學習。它只應該在沒有遊戲獎勵的地下城裡使用（如無限回廊）。</p><h2>1. 使用限制</h2><p>您應嚴格按照相關協定的條款使用本應用程式, 不得：<ol type="a"><li>反編譯、逆向工程、拆卸、嘗試匯出原始程式碼或解密應用程式；</li><li>違反任何適用於您獲取或使用應用程式的法律、規則或條例；</li><li>使用此應用程式損害其他玩家利益（如排位比賽），或在遊戲中以無腦的方式取得進度；</li><li>將此應用程式用於任何嘗試創造收益、企業商用或其他非設計目的領域。</li>  </ol></p><h2>2. 許可的終止</h2><p><em>Babos科技</em>保留在任何時候，臨時或永久性，隨時修改或終止服務（包括此應用程式，以及雲端求解訂閱服務）且可不通知使用者的權利。您同意，<em>Babos科技</em>不為您或任何協力廠商對服務的修改、暫停或中止負有責任。<em>Babos科技</em>保留更改、限制使用、收費繼續使用（在收取任何費用之前會要求您進行確認），和/或在任何時間停止任何服務的權利。</p><h2>3. 責任限制</h2><p>在任何情況下, <em>Babos科技</em>或其附屬機構、合作夥伴、供應商或許可方都不應對您訪問或使用或無法訪問或無法使用此應用和任何協力廠商內容和服務而產生的任何間接、附帶、相應、特殊或懲罰性賠償承擔責任，不論損害是否可預見，<em>Babos科技</em>是否被告知可能發生此種損害。在上述概論限制之外，<em>Babos科技</em>對您的總責任（無論是合同、侵權、法規還是其他），不得超過五美元（$5.00）。即使上述補救措施未能達到其基本目的，上述限制也將適用。</p><div>======================</div><h1>P&D Helper End-user license agreement</h1> <p> This Application is not affiliated with GungHo Online Entertainment, Inc. or Puzzle & Dragons. And it is not an official app for Puzzle & Dragons. <br /> <b>You must not use this application in a way that will prejudice other players, or in a way that will favor your progression in the game.</b> <br /> This Application is only made to progress and increase your skill in the game by following an overlay path, and learning from it. It should only be used in dungeons without in-game recompense (e.g. Endless Corridors). </p> <h2>1. Restrictions on Use</h2> <p> You shall use this Application strictly in accordance with the terms of the Related Agreements and shall not: (a) decompile, reverse engineer, disassemble, attempt to derive the source code of, or decrypt the Application; (b) violate any applicable laws, rules or regulations in connection with your access or use of the Application; (c) use this Application to prejudice other players (e.g. Ranking dungeons), or progress in the game in an anormal way; (d) use this Application for any revenue generating endeavor, commercial enterprise, or other purpose for which it is not designed or intended. </p> <h2>2. Termination of License</h2> <p> Babos Technology reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Services (this Application, as well as the Remote Solver Subscriptions) with or without notice. You agree that Babos Technology shall not be liable to you or to any third party for any modification, suspension or discontinuance of the Services. Babos Technology reserves the right to change, limit usage of, charge for continued usage of (of course require you to opt in before incurring any charges), and/or discontinue any services at any point in time. </p> <h2>3. Limitation of Liability</h2> <p> Under no circumstances shall Babos Technology or its affiliates, partners, suppliers or licensors be liable for any indirect, incidental, consequential, special or exemplary damages arising out of or in connection with your access or use of or inability to access or use this Application and any third party content and services, whether or not the damages were foreseeable and whether or not Babos Technology was advised of the possibility of such damages. Without limiting the generality of the foregoing, Babos Technology\'s aggregate liability to you (whether under contract, tort, statute or otherwise) shall not exceed the amount of five dollars ($5.00). The foregoing limitations will apply even if the above stated remedy fails of its essential purpose. </p>]]></string>
+    <string name="eula"><![CDATA[<h1>龍圖助手最終用戶授權協定</h1><p><em>注：以英文原文為准，原文附于中文翻譯後方。</em></p><p>此應用程式不屬於<em>GungHo線上娛樂株式會社</em>或<em>龍族拼圖</em>。且它並非<em>龍族拼圖</em>的官方應用。<br/><strong>您不能以任何會損害其他玩家利益或有利於您遊戲進度的方式使用此應用程式。</strong><br/>這個應用程式只能用來進步和提高你的轉珠技能，在遊戲中顯示疊珠路徑並從中學習。它只應該在沒有遊戲獎勵的地下城裡使用（如無限回廊）。</p><h2>1. 使用限制</h2><p>您應嚴格按照相關協定的條款使用本應用程式, 不得：<ol type="a"><li>反編譯、逆向工程、拆卸、嘗試匯出原始程式碼或解密應用程式；</li><li>違反任何適用於您獲取或使用應用程式的法律、規則或條例；</li><li>使用此應用程式損害其他玩家利益（如排位比賽），或在遊戲中以無腦的方式取得進度；</li><li>將此應用程式用於任何嘗試創造收益、企業商用或其他非本程式原設計目的領域。</li>  </ol></p><h2>2. 許可的終止</h2><p><em>Babos科技</em>保留在任何時候，臨時或永久性，隨時修改或終止服務（包括此應用程式，以及雲端求解訂閱服務）且可不通知使用者的權利。您同意，<em>Babos科技</em>不為您或任何協力廠商對服務的修改、暫停或中止負有責任。<em>Babos科技</em>保留更改、限制使用、收費繼續使用（在收取任何費用之前會要求您進行確認），和/或在任何時間停止任何服務的權利。</p><h2>3. 責任限制</h2><p>在任何情況下, <em>Babos科技</em>或其附屬機構、合作夥伴、供應商或許可方都不應對您訪問或使用或無法訪問或無法使用此應用和任何協力廠商內容和服務而產生的任何間接、附帶、相應、特殊或懲罰性賠償承擔責任，不論損害是否可預見，<em>Babos科技</em>是否被告知可能發生此種損害。在上述概論限制之外，<em>Babos科技</em>對您的總責任（無論是合同、侵權、法規還是其他），不得超過五美元（$5.00）。即使上述補救措施未能達到其基本目的，上述限制也將適用。</p><div>======================</div><h1>P&D Helper End-user license agreement</h1> <p> This Application is not affiliated with GungHo Online Entertainment, Inc. or Puzzle & Dragons. And it is not an official app for Puzzle & Dragons. <br /> <b>You must not use this application in a way that will prejudice other players, or in a way that will favor your progression in the game.</b> <br /> This Application is only made to progress and increase your skill in the game by following an overlay path, and learning from it. It should only be used in dungeons without in-game recompense (e.g. Endless Corridors). </p> <h2>1. Restrictions on Use</h2> <p> You shall use this Application strictly in accordance with the terms of the Related Agreements and shall not: (a) decompile, reverse engineer, disassemble, attempt to derive the source code of, or decrypt the Application; (b) violate any applicable laws, rules or regulations in connection with your access or use of the Application; (c) use this Application to prejudice other players (e.g. Ranking dungeons), or progress in the game in an anormal way; (d) use this Application for any revenue generating endeavor, commercial enterprise, or other purpose for which it is not designed or intended. </p> <h2>2. Termination of License</h2> <p> Babos Technology reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Services (this Application, as well as the Remote Solver Subscriptions) with or without notice. You agree that Babos Technology shall not be liable to you or to any third party for any modification, suspension or discontinuance of the Services. Babos Technology reserves the right to change, limit usage of, charge for continued usage of (of course require you to opt in before incurring any charges), and/or discontinue any services at any point in time. </p> <h2>3. Limitation of Liability</h2> <p> Under no circumstances shall Babos Technology or its affiliates, partners, suppliers or licensors be liable for any indirect, incidental, consequential, special or exemplary damages arising out of or in connection with your access or use of or inability to access or use this Application and any third party content and services, whether or not the damages were foreseeable and whether or not Babos Technology was advised of the possibility of such damages. Without limiting the generality of the foregoing, Babos Technology\'s aggregate liability to you (whether under contract, tort, statute or otherwise) shall not exceed the amount of five dollars ($5.00). The foregoing limitations will apply even if the above stated remedy fails of its essential purpose. </p>]]></string>
     <string name="eula_title">最終用戶授權協定</string>
     <string name="orbOptions">寶珠選項</string>
     <string name="optionOrbAlgorithm">寶珠檢測演算法</string>
     <string name="optionOrbAlgorithmLayoutSubText">選擇你想使用的寶珠檢測演算法</string>
     <string name="optionRedirectToManual">重定向到手動版面模式？</string>
     <string name="optionRedirectToManualSubText">在未能識別所有寶珠時，自動打開手動版面模式,。</string>
-    <string name="VDP">無效貫通</string>
+    <string name="VDP">無效貫通(3×3)</string>
     <string name="overlay_options_startWith">起始路徑</string>
     <string name="startWith_title">起始路徑模式</string>
     <string name="startWith_exit_text">退出</string>
@@ -283,7 +283,7 @@
     <string name="leader_odindra">木根</string>
     <string name="leader_nees">劾龍</string>
     <string name="leader_awokenRaphael">覺醒光天</string>
-    <string name="leader_amen">火柱</string>
+    <string name="leader_amen">火柱(阿蒙)</string>
     <string name="leader_rIndra">轉生光印</string>
     <string name="leader_statisPlanar">暗時女(女子桶)</string>
     <string name="leader_yusuke">浦飯幽助</string>
@@ -404,7 +404,7 @@
     <string name="help_debug_mode_content"><![CDATA[<div>為當前會話啟用偵錯模式，除了關鍵的崩潰資訊外還將記錄大量額外有用的資訊 (偵錯記錄檔和錄影/擷圖畫面)。請不要忘記之後手動發送記錄檔！</div><br/><div>每次啟用，偵錯狀態將保持10分鐘。</div>]]></string>
     <string name="loading">載入中…</string>
     <string name="loading_webview">載入網頁控制項中…</string>
-    <string name="home_version_name"><![CDATA[智龍助手 - v%1$s]]></string>
+    <string name="home_version_name"><![CDATA[龍圖助手 - v%1$s]]></string>
     <string name="store_subscription_expired">⚠ 您的訂閱已到期</string>
     <string name="store_querying_informations">⌛ 正在查詢伺服器上的訂閱資訊…</string>
     <string name="store_sku_not_available">⚠ 您訂閱了 %1$s ，但此項在應用內購目錄中不可用。</string>
@@ -438,5 +438,5 @@
     <string name="logs_uploaded_2">記錄檔上傳成功 - 但更新本機記錄檔失敗</string>
     <string name="logs_uploaded_3">錯誤 %1$d - 無法上傳記錄檔…</string>
     <string name="delete_logs_error">刪除記錄檔發生錯誤 : %1$s</string>
-    <string name="overlay_tpa">TPA</string>
+    <string name="overlay_tpa">4珠(U)</string>
 </resources>
