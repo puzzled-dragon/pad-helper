@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8" />
+        <title>智龙助手</title>
+		<style>
+			html {
+				width: 100%;
+				background: #333333;
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+			}
+			
+			body {
+				width: 100%;
+				background: #333333;
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.container {
+				height: 100%;
+				background: #333333;
+				padding: 10px;
+				box-sizing: border-box;
+				color: white;
+				font-size: 14px;
+			}
+			
+			.subtext, .changelog {
+				padding-left: 10px;
+				box-sizing: border-box;
+			}
+			
+			.subtext a {
+				color: #3399ff;
+			}
+			
+			.changelog h3 {
+				text-decoration: underline;
+			}
+			
+			.changelog ul {
+				list-style-type: "♦"
+			}
+			
+			.changelog ul > li {
+				padding-left: 5px;
+			}
+			
+			.changelog ul > li > p {
+				padding-left: 5px;
+				font-size: 11px;
+			}
+
+			.blue {
+				color: #3399ff;
+			}
+
+			.orange {
+				color: #ff6600;
+			}
+
+			.red {
+				color: red;
+			}
+
+			h3.alpha:after {
+				content: ' (Alpha only)';
+				font-style: italic;
+			}
+		</style>
+    </head>
+    <body>
+		<div class="container">
+			<h2><u>更新日志：</u></h2>
+			<div class="changelog">
+				<h3 class="alpha">Version 1.14.0</h3>
+					<ul>
+						<li>
+							本应用现在已增加 <strong class="blue">中文（简，繁）</strong>翻译 ！
+							<p>
+								一个 <strong>逼格</strong> 谢谢给 <strong class="red">枫谷剑仙 (Mapaler)</strong>  为了所有工作他做完的！
+							</p>
+						</li>
+						<li>
+							回复模式：增加<strong class="blue">4珠(U)</strong>。
+						</li>
+						<li>
+							修复 2:1 比例设备上的 7x6 板面校准。
+						</li>
+					</ul>
+				<h3>Version 1.13.6</h3>
+					<ul>
+						<li>
+							<strong class="orange">[技术更新]</strong> targetSdkVersion从21升级到28.
+							<p>
+								<strong>会产生大量的 bug，请毫不犹豫地与我联系。</strong>
+								<br />
+								<br />
+								强制升级 targetSdkVersion。
+								<br />
+								在 Android 6 + 上首次使用本应用时, 本应用将请求权限（在其他应用程序的上层显示、使用截图时的访问存储空间等）。
+							</p>
+						</li>
+						<li>
+							添加一些队长技能（<strong class="blue">水大魔女</strong>, <strong class="blue">觉醒木星机</strong>）
+						</li>
+						<li>
+							方案列表里“剩余珠数”替代“匹配珠数”。
+						</li>
+					</ul>
+				<h3>Version 1.12.6</h3>
+					<ul>
+						<li>
+							现在可以从悬浮窗中的选项页启用/禁用云端求解。
+							<p>
+								点击绿色图标。
+							</p>
+						</li>
+						<li>
+							<strong class="blue">日志页面</strong> 代码重构
+						</li>
+					</ul>
+				<h3>Version 1.12.2</h3>
+					<ul>
+						<li>
+							Recovery mode : <strong class="blue">L-Shape</strong> added, Crosses removed (crosses are still available as leader skills)
+						</li>
+					</ul>
+				<h3>Version 1.12.1</h3>
+					<ul>
+						<li>
+							Added some leader skills (<strong class="blue">Awoken Raphael</strong>, <strong class="blue">Reincaranted Indra</strong>, <strong class="blue">Stasis Norn, Planar</strong>, <strong class="blue">Yusuke</strong>, <strong class="blue">Kaede (split)</strong> and <strong class="blue">Amen</strong>)
+							<p>
+								The Amen leader skill is not perfect yet, and it requires a very very high Path Number Scaling to work consistently (> 256).
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.12.0</h3>
+					<ul>
+						<li>
+							Colored <strong class="blue">L-Shape</strong> awakenings support.
+						</li>
+					</ul>
+				<h3>Version 1.11.0</h3>
+					<ul>
+						<li>
+							Enhancement : <strong class="blue">Manual mode</strong> overhaul.
+						</li>
+					</ul>
+				<h3>Version 1.10.0</h3>
+					<ul>
+						<li>
+							Enhancement : <strong class="blue">Bomb orbs</strong> support.
+							<p>
+								This includes the recognition and processing of bomb orbs (with explosions taken into account in the algorithm).<br />
+								But this does NOT guarantee the total elimination of all bomb orbs.
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.9.1</h3>
+					<ul>
+						<li> 
+							New feature : <strong class="blue">Starting path</strong> mode.
+							<p>
+								Sometimes, you want to give the algo a little help. It's now possible : you can begin the path (to match a cross, etc) before the algo picks up where you left.
+							</p>
+							<p>
+                                You can find this new mode in the options tab of the overlay.
+                            </p>
+						</li>
+						<li>
+							Added some new leader skills (<strong class="blue">Yog</strong>, <strong class="blue">Kamimusubi</strong>, <strong class="blue">Odin Dragon</strong>, <strong class="blue">Nees</strong>).
+						</li>
+					</ul>	
+				<h3>Version 1.9.0</h3>
+					<ul>
+						<li>
+							Added the <strong class="blue">512 remote subscription</strong>.
+							<p>
+								If you wish to change your subscription, cancel the current one in the Google Play app, wait until it finishes (it may be several days), and switch once it is no longer working !
+							</p>
+						</li>
+						<li>
+							Added <strong class="blue">follow up attack</strong> in the recovery mode.
+						</li>
+						<li>
+							Added a fallback when the board is not correctly detected.
+						</li>
+						<li>
+							Added the possibility to navigate through old boards in the Manual Mode.
+						</li>
+						<li>
+							Added the automatic redirection into Manual Mode when orbs are not correctly recognized.
+						</li>
+						<li>
+							The app now send badly recognized orbs only when there are at least 15 orbs correctly recognized (it will prevent the app from sending useless images when a screenshot is taken outside of PAD)
+						</li>
+					</ul>
+				<h3>Version 1.8.4</h3>
+					<ul>
+						<li>
+							New orb detection mode added
+						</li>
+					</ul>
+				<h3>Version 1.8.3</h3>
+					<ul>
+						<li>
+							Added some new leader skills (<strong class="blue">Dark Athena</strong>, <strong class="blue">Light Metatron</strong>, <strong class="blue">Xiang Mei</strong>, <strong class="blue">Voltron</strong>).
+						</li>
+						<li>
+							Added an <strong class="blue">End-user license agreement</strong>.
+							<p>
+								You will have to agree to it in order to use this app.
+							</p> 
+						</li>
+						<li>
+							Minor other fixes
+						</li>
+					</ul>
+				<h3>Version 1.8.2</h3>
+					<ul>
+						<li>
+							Complete refactoring of the board detection algorithm, still trying to fix problems in new devices.
+						</li>
+					</ul>
+				<h3>Version 1.8.1</h3>
+					<ul>
+						<li>
+							Some work on board detection in order to fix problems in new devices (S8).
+						</li>
+						<li>
+							Added the <strong class="blue">Low opacity</strong> mode for the overlay in the options page.
+						</li>
+					</ul>
+				<h3>Version 1.8.0</h3>
+					<ul>
+						<li>
+							The <strong class="blue">Debug mode</strong> is now automatically stopping after 10 minutes.
+						</li>
+						<li>
+							Several fixes in the <strong class="blue">Board detection algorithm</strong> and the path drawing.
+							<p>
+								Hopefully this will fix the Samsung S8 problem !
+							</p>
+							<p class="red">
+								There is a possibility of regression (ie : the path will not be aligned anymore) with all devices. Please notify me ASAP if you notice a problem !
+							</p>
+						</li>
+						<li> 
+							The <strong class="blue">TensorFlow™</strong> native Android library was added to the app (~20 Mo). Sorry for the huge size.
+							<p>
+                                With this library, I will be able to use <strong class="blue">machine learning</strong> to detect the orbs color. It should be more consistent, and will reduce the number of bad detections.
+                            </p>
+                            <p>
+                            	The app now sends a small orb image (48x48) when it doesn't recognize it. You can disable this feature if you want (in the option page), but I advise you not to.
+                            </p>
+						</li>
+					</ul>
+				<h3>Version 1.7.2</h3>
+					<ul>
+						<li> 
+							New feature : <strong class="blue">Exclude orbs</strong>.
+							<p>
+                                You can activate it in the "Profiles" menu of the <u>overlay</u> ! This feature will let you choose which orbs to keep for next turn !
+                            </p>
+						</li>
+					</ul>
+				<h3>Version 1.7.1</h3>
+					<ul>
+						<li>
+							Added a new leader skill (<strong class="blue">Zuoh</strong>).
+                        </li>
+						<li>
+							Updated the connectivity test in the help page.
+							<p>
+								Only for debug purpose.
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.7.0</h3>
+					<ul>
+						<li>
+							The <strong class="blue">store</strong> has been refactored, it is now available on its own page.
+						</li>
+						<li>
+							The <strong class="blue">changelog</strong> has been refactored too, it is now available on its own page.
+						</li>
+						<li>
+							The <strong class="blue">webview</strong> in the home page has been modified to include only some news/infos.
+						</li>
+					</ul>
+				<h3>Version 1.6.10</h3>
+					<ul>
+						<li>
+							The <strong class="blue">timer</strong> now starts on <i>touch</i> (when you first touch the screen after finding solutions).
+						</li>
+						<li>
+                            Added some new leader skills (<strong class="blue">Hel</strong>, <strong class="blue">Tifa</strong>, <strong class="blue">Lightning</strong>, <strong class="red">Noctis</strong>, <strong class="blue">Yuna</strong>).
+							<p>
+								/!\ You should select a <strong class="blue">high Path Number Scaling</strong> (256+) to get good results.
+							</p>
+							<p class="red">
+								Even with a high Path Number Scaling, you will face problems getting good results for Noctis (and Kinnikuman)... Sorry, I couldn't improve the algo to be consistent for these sort of leaders...
+							</p>
+						</li>
+						<li>
+                            Minor update of the calibrator (fixes a problem on 7x6 boards for a specific device : Kyocera Hydro View)
+							<p>
+								Don't forget that if you have some problems detecting the orbs, you can contact me and I'll do my best to update the calibrator !
+							</p>
+                        </li>
+						<li>
+							Increased the maximum path length to 50 ! <i>(Alpha only)</i>
+						</li>
+					</ul>
+				<h3>Version 1.6.9</h3>
+					<ul>
+						<li>
+							You can now select the <strong class="blue">starting orbs</strong> (from which the paths will begin).
+							<p>
+								This feature is available in the <strong class="blue">manual board setting</strong> mode.
+							</p>
+							<p>
+								This will prove useful in the Myr dungeon for example.
+							</p>
+						</li>
+						<li>
+                            Added some new leader skills (<strong class="blue">Sherias Roots</strong>, <strong class="blue">Awoken Hermes</strong>, <strong class="blue">Krishna</strong>, <strong class="blue">Awoken Kushi</strong>, <strong class="blue">Awoken U&amp;Y</strong>, <strong class="blue">Ilm</strong>).
+                        </li>
+					</ul>
+				<h3>Version 1.6.8</h3>
+					<ul>
+						<li>
+							Added a Tips section
+						</li>
+						<li>
+							Added some new leader skills (<strong class="blue">Trailokya</strong>, <strong class="blue">Tamazo X Awoken Odin</strong>) and updated <strong class="blue">Acala</strong> leader skill (now wood and fire crosses).
+							<p>
+								/!\ As usual, you should select a <strong class="blue">high Path Number Scaling</strong> (256+) to get good results.
+							</p>
+                        </li>
+						<li>
+							Moved the notifications, as they were previously located on top of the board...
+						</li>
+					</ul>
+				<h3>Version 1.6.7</h3>
+					<ul>
+						<li>
+							Small fix on the calibrator.
+						</li>
+						<li>
+							Added a new leader skill (<strong class="blue">Xiu Min</strong>).
+                        </li>
+					</ul>
+				<h3>Version 1.6.6</h3>
+					<ul>
+						<li>
+							Added some new leader skills (<strong class="blue">Paimon</strong>, <strong class="blue">Acala</strong>, <strong class="blue">Dantalion</strong>, <strong class="blue">Sitri</strong>, <strong class="blue">Ace Bastet</strong>).
+							<p>
+								/!\ As usual, you should select a <strong class="blue">high Path Number Scaling</strong> (256+) to get good results.
+							</p>
+                        </li>
+					</ul>
+				<h3>Version 1.6.5</h3>
+					<ul>
+						<li> 
+							Fixed a sorting issue in the solution list.
+							<p>
+								It was impossible to sort by jammer, poison or mortal poison orbs.
+							</p>
+						</li>
+						<li>
+							Added a connectivity test in the help page.
+							<p>
+								Only for debug purpose.
+							</p>
+						</li>
+						<li>
+                            Added some new leader skills (<strong class="blue">Rurouni</strong>, <strong class="blue">Sarasvati (UUEVO JP leader skill)</strong>).
+                        </li>
+					</ul>
+				<h3>Version 1.6.4</h3>
+					<ul>
+						<li> 
+							New feature : <strong class="blue">Recovery mode</strong>.
+							<p>
+                                You can activate it in the "Profiles" menu of the <u>overlay</u> ! This feature will select in prioriry heart orbs.
+                            </p>
+							<p>
+								/!\ As usual, for the row (or cross) recovery mode, you should select a <strong class="blue">high Path Number Scaling</strong> to get good results.
+							</p>
+						</li>
+						<li>
+                            Added some new leader skills (<strong class="blue">Yomi Dragon</strong>, <strong class="blue">Fenrir</strong>).
+                        </li>
+					</ul>
+				<h3>Version 1.6.3</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Enhanced orbs</strong> support. <i>(experimental)</i>
+							<p>
+                                Not really helpful is most situations, but this feature was asked by some users (to help with leaders like Sumire, etc).
+                            </p>
+						</li>
+					</ul>
+				<h3>Version 1.6.2</h3>
+					<ul>
+						<li> 
+							Added <strong class="blue">Kinnikuman</strong> leader skill. <i>(experimental)</i>
+							<p>
+                                /!\ Warning : this new leader skill require a <strong class="blue">very high Path Number Scaling</strong> ( > 256, or even 512/1024 ) to work consistently.
+                            </p>
+						</li>
+					</ul>
+				<h3>Version 1.6.1</h3>
+					<ul>
+						<li> 
+							Added <strong class="blue">You Yu</strong> leader skill.
+						</li>
+					</ul>
+				<h3>Version 1.6</h3>
+					<ul>
+						<li>
+							Several fixes for the <strong class="blue">Remote solver</strong>.
+						</li>
+						<li>
+							Added some new leader skills : <strong class="blue">Myr</strong>, <strong class="blue">Gremory</strong>, <strong class="blue">Ronove</strong>
+							<p>
+                                /!\ Warning : these new leader skills require a <strong class="blue">very high Path Number Scaling</strong> ( > 256, or even 512/1024 ) to work consistently.
+                            </p>
+						</li>
+						<li>
+							Added a new database (Realm.io) to log errors. Don't forget to check the 'Error logs' checkbox at the end of the option page !
+							<p>
+								This modification has increased the size of the app, but it's way better than the old system I had.
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.5</h3>
+                    <ul>
+                        <li>
+                            New feature : <strong class="blue">Remote solver</strong>.
+                            <p>
+                                This is a premium feature : You can access the unlimited use of the remote solver by subscribing (monthly) to the app.
+                            </p>
+							<p>
+								Two packages are available (128, 256) with corresponding limits in Path Number Scaling.
+							</p>
+                        </li>
+						<li>
+							The solver engine was refactored, to comply with the evolution of the game (cross leaders, etc).
+							<p>
+								/!\ Warning : All your custom profiles will be erased (because the way I saved them had to change...); I'm sorry for the inconvenience.
+							</p>
+							<p>
+                                /!\ Warning 2 : Cross leaders need a <strong class="blue">very high Path Number Scaling</strong> ( > 256, or even 512/1024 ) to work consistently.
+                            </p>
+						</li>
+						<li>
+							Custom profiles page was also refactored.
+							<p>
+								You can now set rows and tpa more precisely to accomodate your needs.
+							</p>
+						</li>
+                    </ul>
+				<h3>Version 1.4.2</h3>
+                    <ul>
+                        <li>
+                            Added some new leader skills (<strong class="blue">Kaede</strong>, <strong class="blue">Sumire</strong>, <strong class="blue">Awoken DQXQ</strong>).
+                            <p>
+                                /!\ Warning : Kaede and Sumire are experimental leader skills, and they only work with a <strong class="blue">high Path Number Scaling</strong> ( > 256 )
+                            </p>
+                        </li>
+                    </ul>
+				<h3>Version 1.4.1</h3>
+					<ul>
+						<li>
+							Preparatory work on a new feature : <strong class="blue">Remote solver</strong>.
+							<p>
+								This will be a premium feature; you can already test the performance of the remote solver in the option page.
+								Please don't hesitate to contact me if the remote solve test doesn't work. Thanks.
+							</p>
+						</li>
+						<li>
+							Solved an orb misclassification problem occuring when several blind orbs where present on the board.
+						</li>
+						<li>
+							Added some new leader skills (<strong class="blue">Cecil</strong>, <strong class="blue">Amberjack</strong>).
+						</li>
+					</ul>
+				<h3>Version 1.4</h3>
+					<ul>
+						<li>
+							Some progress on <strong class="blue">mortal poison</strong> orb support <i>(still waiting on more data to refine the orb detection)</i>
+						</li>
+						<li> 
+							New way for selecting orb color in the <strong class="blue">manual board setting</strong> mode 
+						</li>
+					</ul>
+				<h3>Version 1.3.4</h3>
+					<ul>
+						<li>
+							Small progress on <strong class="blue">mortal poison</strong> orb support <i>(waiting on more data to refine the orb detection)</i>
+						</li>
+						<li> 
+							Some small cyan dots are added on the corners on the board. 
+							<p>
+								It serves no other purpose than to help me debug those who have a calibration problem. Please tell me if these dots bother you !
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.3.3</h3>
+					<ul>
+						<li>
+							<strong class="blue">Mortal poison</strong> orb partial support <i>(waiting on more data to refine the orb detection)</i>
+							<p>
+								This may have caused some regressions in the app (I had to add a new type of orb and it's not something that easy).
+								<strong>Don't hesitate to report any regression.</strong>
+							</p>
+						</li>
+						<li> 
+							<strong class="blue">Gadius</strong> & <strong class="blue">Typhon</strong> leader skills added
+						</li>
+						<li> 
+							Graphical bug (overlay's `Quit` button not aligned) fixed
+						</li>
+					</ul>
+				<h3>Version 1.3.2</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Path drawing size</strong> option added
+							<p>
+								 You can now choose the overlay path size
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.3.1</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Manual board setting</strong> mode fixed (it was not working...)
+						</li>
+					</ul>
+				<h3>Version 1.3</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Google Drive</strong> support <i>(experimental)</i>
+							<p>
+								 You can now save and load your custom profiles with Google Drive. Useful if you want to change your phone without losing all your custom profiles !
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.2</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Delete screenshots</strong> option added
+							<p>
+								Choose whether or not you want the app to remove the screenshots you take (only in screenshot mode).
+							</p>
+						</li>
+						<li>
+							<strong class="blue">Error logs</strong> option added
+							<p>
+								You can now help me debug the app. Just check this option, and the crash reports will be automatically sent (when the app starts, after a crash).
+							</p>
+						</li>
+						<li>
+							The app will not crash anymore when facing a black board (after a blind)
+							<p>
+								 Instead you will have a board full of "Jammers". Using the <strong class="blue">manual board setting</strong> mode is highly recommended in these situations.
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.1</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Manual board setting</strong> mode (available under the option menu in the overlay)
+							<p>
+								You can now set manually the board before lauching the path finding algorithm. 
+							</p>
+							<p>
+								Just click on the orbs to set them to the desired color.
+							</p>
+							<p>
+								A button is available to toggle the <i>consistence</i> of the board : it means that you can toggle the transparency and the ability to click through (useful to quickly set the manual board when facing an hidden P&amp;D board).
+							</p>
+						</li>
+						<li>
+							<strong class="blue">Changelog</strong>  is available using a webview <i>(experimental)</i>
+						</li>
+						<li>
+							<strong>Awoken Tsukuyomi</strong> preset modified
+						</li>
+					</ul>
+					
+				<h3>Version 1.0</h3>
+					<ul>
+						<li><strong class="blue">First release</strong></li>
+					</ul>
+			</div>
+		</div>
+	</body>
+</html>
