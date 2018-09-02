@@ -439,4 +439,6 @@
     <string name="logs_uploaded_3">錯誤 %1$d - 無法上傳記錄檔…</string>
     <string name="delete_logs_error">刪除記錄檔發生錯誤 : %1$s</string>
     <string name="overlay_tpa">4珠(U)</string>
+    <string name="remote_solver_maximum_warning">%1$d is the maximum for the remote solver</string>
+    <string name="take_screenshot_to_proceed">Please take a screenshot to proceed...</string>
 </resources>
