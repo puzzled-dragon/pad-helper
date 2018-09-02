@@ -440,4 +440,6 @@
     <string name="solutionList_matched_short">M : %1$s</string>
     <string name="solutionList_remaining_short">R : %1$s</string>
     <string name="overlay_tpa">TPA</string>
+    <string name="remote_solver_maximum_warning">%1$d is the maximum for the remote solver</string>
+    <string name="take_screenshot_to_proceed">Please take a screenshot to proceed...</string>
 </resources>
