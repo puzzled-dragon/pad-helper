@@ -24,7 +24,6 @@
     <string name="solutionList_rank_text">等级</string>
     <string name="solutionList_combos_text">连击</string>
     <string name="solutionList_length_text">长度</string>
-    <string name="hello_blank_fragment">空白欢迎界面</string>
     <string name="appMenuHome">主页</string>
     <string name="appMenuProfiles">队长技配置</string>
     <string name="appMenuOptions">程序选项</string>
@@ -442,5 +441,5 @@
     <string name="remote_solver_maximum_warning">云端求解最大只支持 %1$d 次探索</string>
     <string name="take_screenshot_to_proceed">请截图以继续…</string>
     <!-- i18n_suffix is for development purpose - Do not change -->
-    <string name="i18n_suffix" >-zh-rCN</string>
+    <string name="i18n_suffix" >zh-rCN</string>
 </resources>

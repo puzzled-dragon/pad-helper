@@ -23,9 +23,6 @@
     <string name="solutionList_rank_text">Rank</string>
     <string name="solutionList_combos_text">Combos</string>
     <string name="solutionList_length_text">Length</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="appMenuHome">Home</string>
     <string name="appMenuProfiles">Profiles</string>
     <string name="appMenuOptions">Options</string>
