@@ -439,8 +439,8 @@
     <string name="logs_uploaded_3">错误 %1$d - 无法上载日志…</string>
     <string name="delete_logs_error">删除日志发生错误 : %1$s</string>
     <string name="overlay_tpa">4珠(U)</string>
-    <string name="remote_solver_maximum_warning">%1$d is the maximum for the remote solver</string>
-    <string name="take_screenshot_to_proceed">Please take a screenshot to proceed...</string>
+    <string name="remote_solver_maximum_warning">云端求解最大只支持 %1$d 次探索</string>
+    <string name="take_screenshot_to_proceed">请截图以继续…</string>
     <!-- i18n_suffix is for development purpose - Do not change -->
     <string name="i18n_suffix" >-zh-rCN</string>
 </resources>
