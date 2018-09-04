@@ -1,6 +1,6 @@
 ﻿P&D Helper Language Localisation Preject
 ======
-**This project is a public project that is localized for P&D Helper.**
+**This project is a public project that is localized for P&D Helper.** But the P&D Helper itself is not public project.
 
 NOTICE: "P&D Helper" by Babos Technology is NOT an official app for Puzzle & Dragons.
 
@@ -13,7 +13,7 @@ P&D Helper is a powerful and fully parameterizable app that will help you solve 
 1. Click **Fork** In the page top right corner. Fork your own copy of this repository to your account.
 1. Use Git to clone/pull repository locally for modification(How to modify please see below).
 1. Use Git to commit and push changes to your repository on GitHub.
-1. Go to the **[[Pull requests|pulls]]** page in the top middle of this repository, and click the **New pull request** button.
+1. Go to the **[Pull requests](//github.com/puzzled-dragon/pad-helper/pulls)** page in the top middle of this repository, and click the **New pull request** button.
 1. Click the **Compare Across Forks** button and select your fork, the page then displays the changes.
 1. Click the **Create pull request** button and enter the details of the modification, create your pull request.
 ## Translate the main program
