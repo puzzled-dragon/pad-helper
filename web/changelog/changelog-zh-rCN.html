@@ -2,7 +2,7 @@
 <html lang='en'>
     <head>
         <meta charset="utf-8" />
-        <title>智龙助手</title>
+        <title>智龙助手更新日志</title>
 		<style>
 			html {
 				width: 100%;
@@ -68,7 +68,7 @@
 			}
 
 			h3.alpha:after {
-				content: ' (Alpha only)';
+				content: '（仅测试版）';
 				font-style: italic;
 			}
 		</style>
@@ -77,7 +77,13 @@
 		<div class="container">
 			<h2><u>更新日志：</u></h2>
 			<div class="changelog">
-				<h3 class="alpha">Version 1.14.0</h3>
+				<h3>Version 1.14.1</h3>
+					<ul>
+						<li>
+							修复2:1屏幕比例下的一些问题。
+						</li>
+					</ul>
+				<h3>Version 1.14.0</h3>
 					<ul>
 						<li>
 							本应用现在已增加 <strong class="blue">中文（简，繁）</strong>翻译 ！
@@ -89,7 +95,7 @@
 							回复模式：增加<strong class="blue">4珠(U)</strong>。
 						</li>
 						<li>
-							修复 2:1 比例设备上的 7x6 板面校准。
+							修复 2:1 比例设备上的 7x6 版面校准。
 						</li>
 					</ul>
 				<h3>Version 1.13.6</h3>
@@ -127,77 +133,77 @@
 				<h3>Version 1.12.2</h3>
 					<ul>
 						<li>
-							Recovery mode : <strong class="blue">L-Shape</strong> added, Crosses removed (crosses are still available as leader skills)
+							恢复模式：添加<strong class="blue">L字</strong>，移除十字（十字仍然可以通过预设队长技能如『米露』调用）
 						</li>
 					</ul>
 				<h3>Version 1.12.1</h3>
 					<ul>
 						<li>
-							Added some leader skills (<strong class="blue">Awoken Raphael</strong>, <strong class="blue">Reincaranted Indra</strong>, <strong class="blue">Stasis Norn, Planar</strong>, <strong class="blue">Yusuke</strong>, <strong class="blue">Kaede (split)</strong> and <strong class="blue">Amen</strong>)
+							增加一些队长技能（<strong class="blue">觉醒拉斐尔</strong>, <strong class="blue">转生因陀罗</strong>, <strong class="blue">暗时女(停滞之时女神・布丽娜)</strong>, <strong class="blue">浦饭幽助</strong>, <strong class="blue">新木和龙(车头枫)</strong> and <strong class="blue">火柱(阿蒙)</strong>）
 							<p>
-								The Amen leader skill is not perfect yet, and it requires a very very high Path Number Scaling to work consistently (> 256).
+								火柱(阿蒙)队长技能还不完善，它需要非常非常高的路径探索次数才能保证稳定工作。(> 256).
 							</p>
 						</li>
 					</ul>
 				<h3>Version 1.12.0</h3>
 					<ul>
 						<li>
-							Colored <strong class="blue">L-Shape</strong> awakenings support.
+							支持颜色的 <strong class="blue">L字消除</strong> 觉醒。
 						</li>
 					</ul>
 				<h3>Version 1.11.0</h3>
 					<ul>
 						<li>
-							Enhancement : <strong class="blue">Manual mode</strong> overhaul.
+							功能增强：<strong class="blue">手动模式</strong>改造。
 						</li>
 					</ul>
 				<h3>Version 1.10.0</h3>
 					<ul>
 						<li>
-							Enhancement : <strong class="blue">Bomb orbs</strong> support.
+							功能增强：支持<strong class="blue">炸弹珠</strong>。
 							<p>
-								This includes the recognition and processing of bomb orbs (with explosions taken into account in the algorithm).<br />
-								But this does NOT guarantee the total elimination of all bomb orbs.
+								这意味着能够识别和处理炸弹珠（在算法中考虑到爆炸）。<br />
+								但受运算量限制，这并不保证能彻底消除所有的炸弹珠。
 							</p>
 						</li>
 					</ul>
 				<h3>Version 1.9.1</h3>
 					<ul>
 						<li> 
-							New feature : <strong class="blue">Starting path</strong> mode.
+							新功能：<strong class="blue">起始路径</strong>模式。
 							<p>
-								Sometimes, you want to give the algo a little help. It's now possible : you can begin the path (to match a cross, etc) before the algo picks up where you left.
+								有时候, 你想给算法一点人工智慧的帮助。现在可以了：你可以先设定起始的路径（比如拉个十字等），算法会接着你结束部分继续运算。
 							</p>
 							<p>
-                                You can find this new mode in the options tab of the overlay.
+								您可以在悬浮窗的“选项”中找到此新模式。
                             </p>
 						</li>
 						<li>
-							Added some new leader skills (<strong class="blue">Yog</strong>, <strong class="blue">Kamimusubi</strong>, <strong class="blue">Odin Dragon</strong>, <strong class="blue">Nees</strong>).
+								增加一些队长技能（<strong class="blue">光克(犹格)</strong>, <strong class="blue">暗央(灵央)</strong>, <strong class="blue">木根(奥丁龙)</strong>, <strong class="blue">劾龙唤士・尼丝</strong>）。
 						</li>
 					</ul>	
 				<h3>Version 1.9.0</h3>
 					<ul>
 						<li>
-							Added the <strong class="blue">512 remote subscription</strong>.
+							添加了路径探索<strong class="blue">512次云端求解</strong>订阅.
 							<p>
-								If you wish to change your subscription, cancel the current one in the Google Play app, wait until it finishes (it may be several days), and switch once it is no longer working !
+								如果您希望更改您的订阅，请先从Google Play市场中取消当前订阅，并等到它完成（可能是几天），一旦它不再工作就可以切换。
 							</p>
 						</li>
 						<li>
-							Added <strong class="blue">follow up attack</strong> in the recovery mode.
+							在回复模式中增加了<strong class="blue">一竖心追打</strong>。
 						</li>
 						<li>
-							Added a fallback when the board is not correctly detected.
+							在未正确识别版面时添加了回退。
 						</li>
 						<li>
-							Added the possibility to navigate through old boards in the Manual Mode.
+							添加了在手动模式下可以读取版面历史纪录。
 						</li>
 						<li>
-							Added the automatic redirection into Manual Mode when orbs are not correctly recognized.
+							当未正确识别宝珠时，将自动重定向到到手动模式。
 						</li>
 						<li>
-							The app now send badly recognized orbs only when there are at least 15 orbs correctly recognized (it will prevent the app from sending useless images when a screenshot is taken outside of PAD)
+							本应用现在只在有至少15个宝珠正确识别时，才上传识别严重出错的宝珠图片（防止应用程序发送无用的图像，比如智龙迷城以外的屏幕截图）。
 						</li>
 					</ul>
 				<h3>Version 1.8.4</h3>
