@@ -19,7 +19,8 @@ P&D Helper is a powerful and fully parameterizable app that will help you solve 
 ## Translate the main program
 1. The original English strings is `android/values/strings.xml`.
 1. Copy the `values` folder to `values-your_language_tag`, and add to Git repository.
-1. Translate your `strings.xml`.
+1. Translate your `strings.xml`.  
+  \* If you not add a translation for *news* and *logs*, leave the value of `i18n_suffix` blank.
 ## Translate news and logs
 1. The original English webpage is `web/news/news.html` and `web/changelog/changelog.html`.
 1. Copy the two HTML files to themselves folder, change filename to `news-your_language_tag.html` and `changelog-your_language_tag.html`, and then add to Git repository.
