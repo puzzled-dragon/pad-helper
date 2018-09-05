@@ -25,7 +25,7 @@
     <string name="solutionList_combos_text">連擊</string>
     <string name="solutionList_length_text">長度</string>
     <string name="appMenuHome">主頁</string>
-    <string name="appMenuProfiles">隊長技設定檔</string>
+    <string name="appMenuProfiles">隊長設定檔</string>
     <string name="appMenuOptions">程式選項</string>
     <string name="optionTestButton">本機求解</string>
     <string name="overlay_menu_quit">退出</string>
