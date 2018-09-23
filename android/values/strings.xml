@@ -441,4 +441,5 @@
     <string name="take_screenshot_to_proceed">Please take a screenshot to proceed...</string>
     <!-- i18n_suffix is for development purpose - Do not change -->
     <string name="i18n_suffix" />
+    <string name="leader_zela">Zela</string>
 </resources>
