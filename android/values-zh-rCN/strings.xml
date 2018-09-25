@@ -289,6 +289,7 @@
     <string name="leader_kaedeSplit">新木和龙(车头枫)</string>
     <string name="leader_reeche">水大魔女</string>
     <string name="leader_awokenSpica">觉醒木星机</string>
+    <string name="leader_zela">木大魔女</string>
     <string name="leader_color_fire">火</string>
     <string name="leader_color_water">水</string>
     <string name="leader_color_wood">木</string>
@@ -442,5 +443,4 @@
     <string name="take_screenshot_to_proceed">请截图以继续…</string>
     <!-- i18n_suffix is for development purpose - Do not change -->
     <string name="i18n_suffix" >zh-rCN</string>
-    <string name="leader_zela">Zela</string>
 </resources>
