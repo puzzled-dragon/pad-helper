@@ -443,4 +443,5 @@
     <string name="take_screenshot_to_proceed">請擷圖以繼續…</string>
     <!-- i18n_suffix is for development purpose - Do not change -->
     <string name="i18n_suffix" />
+    <string name="subscription_async_error" />
 </resources>

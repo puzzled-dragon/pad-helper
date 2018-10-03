@@ -286,6 +286,9 @@
     <string name="leader_statisPlanar">Stasis Norn, Planar</string>
     <string name="leader_yusuke">Yusuke</string>
     <string name="leader_kaedeSplit">Kaede (split)</string>
+    <string name="leader_reeche">Reeche</string>
+    <string name="leader_awokenSpica">Awoken Spica</string>
+    <string name="leader_zela">Zela</string>
     <string name="leader_color_fire">Fr</string>
     <string name="leader_color_water">Wt</string>
     <string name="leader_color_wood">Wd</string>
@@ -432,8 +435,6 @@
     <string name="logs_uploaded_2">Logs uploaded successfully - But failed to update local logs</string>
     <string name="logs_uploaded_3">Error %1$d - Could not send logs...</string>
     <string name="delete_logs_error">Error while deleting logs : %1$s</string>
-    <string name="leader_reeche">Reeche</string>
-    <string name="leader_awokenSpica">Awoken Spica</string>
     <string name="solutionList_matched_short">M : %1$s</string>
     <string name="solutionList_remaining_short">R : %1$s</string>
     <string name="overlay_tpa">TPA</string>
@@ -441,5 +442,5 @@
     <string name="take_screenshot_to_proceed">Please take a screenshot to proceed...</string>
     <!-- i18n_suffix is for development purpose - Do not change -->
     <string name="i18n_suffix" />
-    <string name="leader_zela">Zela</string>
+    <string name="subscription_async_error">Can\'t start async operation (%1$s) because another async operation (%2$s) is in progress.</string>
 </resources>
