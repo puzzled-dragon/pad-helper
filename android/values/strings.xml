@@ -443,4 +443,6 @@
     <!-- i18n_suffix is for development purpose - Do not change -->
     <string name="i18n_suffix" />
     <string name="subscription_async_error">Can\'t start async operation (%1$s) because another async operation (%2$s) is in progress.</string>
+    <string name="boardview_forbidden_1">You can\'t start the path by an orb that must be avoided.</string>
+    <string name="boardview_forbidden_2">You can\'t avoid a starting orb.</string>
 </resources>
