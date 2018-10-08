@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- i18n_suffix is for development purpose - Do not change -->
+    <string name="i18n_suffix" >zh-rCN</string>
     <string name="app_name">智龙助手</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">设置</string>
@@ -441,11 +443,9 @@
     <string name="overlay_tpa">4珠(U)</string>
     <string name="remote_solver_maximum_warning">云端求解最大只支持 %1$d 次探索</string>
     <string name="take_screenshot_to_proceed">请截图以继续…</string>
-    <!-- i18n_suffix is for development purpose - Do not change -->
-    <string name="i18n_suffix" >zh-rCN</string>
-    <string name="subscription_async_error">Can\'t start async operation (%1$s) because another async operation (%2$s) is in progress.</string>
-    <string name="boardview_forbidden_1">You can\'t start the path by an orb that must be avoided.</string>
-    <string name="boardview_forbidden_2">You can\'t avoid a starting orb.</string>
-    <string name="error_tflite">An error occurred while setting up the TFLITE Interpreter</string>
-    <string name="activity_destroyed"><![CDATA[The P&D Helper app was killed - Shutting down all services...]]></string>
+    <string name="subscription_async_error">无法启动异步操作 (%1$s), 因为正在进行另一个异步操作 (%2$s)。</string>
+    <string name="boardview_forbidden_1">您不能从一个必须避开的宝珠来设置起手路径。</string>
+    <string name="boardview_forbidden_2">您不能避开一个起手宝珠。</string>
+    <string name="error_tflite">设置 TFLITE 解释器时出错</string>
+    <string name="activity_destroyed">智龙助手进程被终止 - 关闭所有服务…</string>
 </resources>
