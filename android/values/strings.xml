@@ -1,4 +1,6 @@
 <resources>
+    <!-- i18n_suffix is for development purpose - Do not change -->
+    <string name="i18n_suffix" />
     <string name="app_name"><![CDATA[P&D Helper]]></string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -440,8 +442,6 @@
     <string name="overlay_tpa">TPA</string>
     <string name="remote_solver_maximum_warning">%1$d is the maximum for the remote solver</string>
     <string name="take_screenshot_to_proceed">Please take a screenshot to proceed...</string>
-    <!-- i18n_suffix is for development purpose - Do not change -->
-    <string name="i18n_suffix" />
     <string name="subscription_async_error">Can\'t start async operation (%1$s) because another async operation (%2$s) is in progress.</string>
     <string name="boardview_forbidden_1">You can\'t start the path by an orb that must be avoided.</string>
     <string name="boardview_forbidden_2">You can\'t avoid a starting orb.</string>

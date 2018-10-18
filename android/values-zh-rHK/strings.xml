@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- i18n_suffix is for development purpose - Do not change -->
+    <string name="i18n_suffix" />
     <string name="app_name">龍圖助手</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">設置</string>
@@ -441,11 +443,9 @@
     <string name="overlay_tpa">4珠(U)</string>
     <string name="remote_solver_maximum_warning">雲端求解最大只支持 %1$d 次探索</string>
     <string name="take_screenshot_to_proceed">請擷圖以繼續…</string>
-    <!-- i18n_suffix is for development purpose - Do not change -->
-    <string name="i18n_suffix" />
-    <string name="subscription_async_error">Can\'t start async operation (%1$s) because another async operation (%2$s) is in progress.</string>
-    <string name="boardview_forbidden_1">You can\'t start the path by an orb that must be avoided.</string>
-    <string name="boardview_forbidden_2">You can\'t avoid a starting orb.</string>
-    <string name="error_tflite">An error occurred while setting up the TFLITE Interpreter</string>
-    <string name="activity_destroyed"><![CDATA[The P&D Helper app was killed - Shutting down all services...]]></string>
+    <string name="subscription_async_error">無法啟動非同步作業 (%1$s), 因為正在進行另一個非同步作業 (%2$s)。</string>
+    <string name="boardview_forbidden_1">您不能從一個必須避開的寶珠來設置起手路徑。</string>
+    <string name="boardview_forbidden_2">您不能避開一個起手寶珠。</string>
+    <string name="error_tflite">設置 TFLITE 解譯器時出錯</string>
+    <string name="activity_destroyed">龍圖助手進程被終止 - 關閉所有服務…</string>
 </resources>
