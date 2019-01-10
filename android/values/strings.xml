@@ -294,6 +294,8 @@
     <string name="leader_mowa">Mowa</string>
     <string name="leader_madoo_uevo">Madoo (Uevo)</string>
     <string name="leader_ameno_bx">Ameno (B/x)</string>
+    <string name="leader_madoo_base">Madoo (Base)</string>
+    <string name="leader_raijin_lx">Raijin (L/x)</string>
     <string name="leader_color_fire">Fr</string>
     <string name="leader_color_water">Wt</string>
     <string name="leader_color_wood">Wd</string>
@@ -336,7 +338,7 @@
     <string name="startWith_tooLong">Starting path too long.</string>
     <string name="startWith_badSwap">Starting path contains a bad orb swap.</string>
     <string name="solutionList_length">Length : %1$s</string>
-    <string name="solutionList_length_short">L : %1$s</string>
+    <string name="solutionList_length_short">L: %1$s</string>
     <string name="solutionList_combos">Combos x%1$s</string>
     <string name="solutionList_combos_short">C x%1$s</string>
     <string name="solutionList_matched">Matched : %1$s</string>
@@ -440,8 +442,8 @@
     <string name="logs_uploaded_2">Logs uploaded successfully - But failed to update local logs</string>
     <string name="logs_uploaded_3">Error %1$d - Could not send logs...</string>
     <string name="delete_logs_error">Error while deleting logs : %1$s</string>
-    <string name="solutionList_matched_short">M : %1$s</string>
-    <string name="solutionList_remaining_short">R : %1$s</string>
+    <string name="solutionList_matched_short">M: %1$s</string>
+    <string name="solutionList_remaining_short">R: %1$s</string>
     <string name="overlay_tpa">TPA</string>
     <string name="remote_solver_maximum_warning">%1$d is the maximum for the remote solver</string>
     <string name="take_screenshot_to_proceed">Please take a screenshot to proceed...</string>
@@ -450,4 +452,12 @@
     <string name="boardview_forbidden_2">You can\'t avoid a starting orb.</string>
     <string name="error_tflite">An error occurred while setting up the TFLITE Interpreter</string>
     <string name="activity_destroyed"><![CDATA[The P&D Helper app was killed - Shutting down all services...]]></string>
+    <string name="manual_train_text">Train Mode</string>
+    <string name="overlay_error_1">Error - Impossible to load Train Mode</string>
+    <string name="train_reset_text">Reset</string>
+    <string name="train_pathlength_text">Path length : %1$s</string>
+    <string name="solutionList_remaining_text">Remaining</string>
+    <string name="train_explain_text1">Trace the path you want and display it as is, or let the algo pick up where you left.</string>
+    <string name="train_display_current_path">Display current path</string>
+    <string name="train_continue_with_solver">Continue with solver</string>
 </resources>

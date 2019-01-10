@@ -295,6 +295,8 @@
     <string name="leader_mowa">暗精灵王</string>
     <string name="leader_madoo_uevo">火大魔女(炎锁)</string>
     <string name="leader_ameno_bx">天央(灵命)</string>
+    <string name="leader_madoo_base">Madoo (Base)</string>
+    <string name="leader_raijin_lx">Raijin (L/x)</string>
     <string name="leader_color_fire">火</string>
     <string name="leader_color_water">水</string>
     <string name="leader_color_wood">木</string>
@@ -451,4 +453,12 @@
     <string name="boardview_forbidden_2">您不能避开一个起手宝珠。</string>
     <string name="error_tflite">设置 TFLITE 解释器时出错</string>
     <string name="activity_destroyed">智龙助手进程被终止 - 关闭所有服务…</string>
+    <string name="manual_train_text">Train Mode</string>
+    <string name="overlay_error_1">Error - Impossible to load Train Mode</string>
+    <string name="train_reset_text">Reset</string>
+    <string name="train_pathlength_text">Path length : %1$s</string>
+    <string name="solutionList_remaining_text">Remaining</string>
+    <string name="train_explain_text1">Trace the path you want and display it as is, or let the algo pick up where you left.</string>
+    <string name="train_display_current_path">Display current path</string>
+    <string name="train_continue_with_solver">Continue with solver</string>
 </resources>
