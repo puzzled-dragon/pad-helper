@@ -210,6 +210,7 @@
     <string name="l_info">Average number of L-Shape awakenings in your team</string>
     <string name="scp_l">L-Shape</string>
     <string name="profilesLShape">L-Shape</string>
+    <!--▼ Leaders List-->
     <string name="none">None</string>
     <string name="leader_uy"><![CDATA[U&Y]]></string>
     <string name="leader_kirin">Sakuya</string>
@@ -296,6 +297,7 @@
     <string name="leader_ameno_bx">Ameno (B/x)</string>
     <string name="leader_madoo_base">Madoo (Base)</string>
     <string name="leader_raijin_lx">Raijin (L/x)</string>
+    <!--▲ Leaders List-->
     <string name="leader_color_fire">Fr</string>
     <string name="leader_color_water">Wt</string>
     <string name="leader_color_wood">Wd</string>
@@ -457,7 +459,7 @@
     <string name="train_reset_text">Reset</string>
     <string name="train_pathlength_text">Path length : %1$s</string>
     <string name="solutionList_remaining_text">Remaining</string>
-    <string name="train_explain_text1">Trace the path you want and display it as is, or let the algo pick up where you left.</string>
+    <string name="train_explain_text1">Trace the path you want and display it as is, or let the algo pick up where you left. If you want modify orbs, enter from manual mode.</string>
     <string name="train_display_current_path">Display current path</string>
     <string name="train_continue_with_solver">Continue with solver</string>
 </resources>
