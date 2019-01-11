@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8" />
+        <title>龍圖助手更新日誌</title>
+		<style>
+			html {
+				width: 100%;
+				background: #333333;
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+			}
+			
+			body {
+				width: 100%;
+				background: #333333;
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.container {
+				height: 100%;
+				background: #333333;
+				padding: 10px;
+				box-sizing: border-box;
+				color: white;
+				font-size: 14px;
+			}
+			
+			.subtext, .changelog {
+				padding-left: 10px;
+				box-sizing: border-box;
+			}
+			
+			.subtext a {
+				color: #3399ff;
+			}
+			
+			.changelog h3 {
+				text-decoration: underline;
+			}
+			
+			.changelog ul {
+				list-style-type: "♦"
+			}
+			
+			.changelog ul > li {
+				padding-left: 5px;
+			}
+			
+			.changelog ul > li > p {
+				padding-left: 5px;
+				font-size: 11px;
+			}
+
+			.blue {
+				color: #3399ff;
+			}
+
+			.orange {
+				color: #ff6600;
+			}
+
+			.red {
+				color: red;
+			}
+
+			h3.alpha:after {
+				content: '（僅測試版）';
+				font-style: italic;
+			}
+		</style>
+    </head>
+    <body>
+		<div class="container">
+			<h2><u>更新日誌：</u></h2>
+			<div class="changelog">
+				<h3 class="alpha">Version 1.17.0</h3>
+					<ul>
+						<li>
+							<strong class="blue">訓練模式</strong>(起始路徑模式大型改造)。
+							<p>
+								第一個版本的訓練模式，可以根據回饋進一步更新。
+							</p>
+						</li>
+						<li>
+							新增隊長技 (<strong class="blue">禁窟之大魔女・瑪杜</strong>)，(<strong class="blue">雙鼓之天鬼姫・雷神</strong>)
+						</li>
+					</ul>
+				<h3>Version 1.16.0</h3>
+					<ul>
+						<li>
+							更新了新寶珠皮膚的<strong class="blue">寶珠識別演算法</strong>。
+						</li>
+					</ul>
+				<h3>Version 1.15.3</h3>
+					<ul>
+						<li>
+							新增隊長技 (<strong class="blue">炎鎖之大魔女・瑪杜</strong>)，(<strong class="blue">靈命的天央神・天之禦中主神</strong>)
+						</li>
+					</ul>
+				<h3>Version 1.15.2</h3>
+					<ul>
+						<li>
+							新增一個隊長技 (<strong class="blue">暗精靈王</strong>)
+						</li>
+						<li>
+							修復了雲端求解的一些小問題
+						</li>
+					</ul>
+				<h3>Version 1.15.1</h3>
+					<ul>
+						<li>
+							更好的求解演算法: 平均路徑長度更小
+						</li>
+						<li>
+							優化搜索心追(1豎心)時的解列表的排序
+						</li>
+					</ul>
+				<h3>Version 1.15.0</h3>
+					<ul>
+						<li>
+							升級了機器學習庫(寶珠檢測)。
+							<p>
+								從 TensorFlow Mobile 升級到 TensorFlow Lite。
+							</p>
+							<p>
+								這是一個重大升級, 它可能導致阻斷性 bug。發現問題請立即通過電子郵件與我聯繫！
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.14.2</h3>
+					<ul>
+						<li>
+							新增一個隊長技 (<strong class="blue">木大魔女</strong>)
+						</li>
+						<li>
+							改進起始路徑模式 (追蹤路徑時更少出現“無效互換”)
+						</li>
+					</ul>
+				<h3>Version 1.14.1</h3>
+					<ul>
+						<li>
+							修復2:1螢幕比例下的一些問題。
+						</li>
+					</ul>
+				<h3>Version 1.14.0</h3>
+					<ul>
+						<li>
+							本應用現在已增加 <strong class="blue">中文（簡，繁）</strong>翻譯 ！
+							<p>
+								一個 <strong>逼格</strong> 謝謝給 <strong class="red">楓穀劍仙 (Mapaler)</strong>  為了所有工作他做完的！
+							</p>
+						</li>
+						<li>
+							回復模式：增加<strong class="blue">4珠(U)</strong>。
+						</li>
+						<li>
+							修復 2:1 比例設備上的 7x6 版面校準。
+						</li>
+					</ul>
+				<h3>Version 1.13.6</h3>
+					<ul>
+						<li>
+							<strong class="orange">[技術更新]</strong> targetSdkVersion從21升級到28.
+							<p>
+								<strong>會產生大量的 bug，請毫不猶豫地與我聯繫。</strong>
+								<br />
+								<br />
+								強制升級 targetSdkVersion。
+								<br />
+								在 Android 6 + 上首次使用本應用時, 本應用將請求許可權（在其他應用程式的上層顯示、使用截圖時的訪問存儲空間等）。
+							</p>
+						</li>
+						<li>
+							添加一些隊長技能（<strong class="blue">水大魔女</strong>, <strong class="blue">覺醒木星機</strong>）
+						</li>
+						<li>
+							方案列表裡“剩餘珠數”替代“匹配珠數”。
+						</li>
+					</ul>
+				<h3>Version 1.12.6</h3>
+					<ul>
+						<li>
+							現在可以從懸浮窗中的選項頁啟用/禁用雲端求解。
+							<p>
+								點擊綠色圖示。
+							</p>
+						</li>
+						<li>
+							<strong class="blue">日誌頁面</strong> 代碼重構
+						</li>
+					</ul>
+				<h3>Version 1.12.2</h3>
+					<ul>
+						<li>
+							復原模式：添加<strong class="blue">L字</strong>，移除十字（十字仍然可以通過預設隊長技能如『米露』調用）
+						</li>
+					</ul>
+				<h3>Version 1.12.1</h3>
+					<ul>
+						<li>
+							增加一些隊長技能（<strong class="blue">覺醒拉斐爾</strong>, <strong class="blue">轉生因陀羅</strong>, <strong class="blue">暗時女(停滯之時女神・布麗娜)</strong>, <strong class="blue">浦飯幽助</strong>, <strong class="blue">新木和龍(車頭楓)</strong> and <strong class="blue">火柱(阿蒙)</strong>）
+							<p>
+								火柱(阿蒙)隊長技能還不完善，它需要非常非常高的路徑探索次數才能保證穩定工作。(> 256).
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.12.0</h3>
+					<ul>
+						<li>
+							支持顏色的 <strong class="blue">L字消除</strong> 覺醒。
+						</li>
+					</ul>
+				<h3>Version 1.11.0</h3>
+					<ul>
+						<li>
+							功能增強：<strong class="blue">手動模式</strong>改造。
+						</li>
+					</ul>
+				<h3>Version 1.10.0</h3>
+					<ul>
+						<li>
+							功能增強：支持<strong class="blue">炸彈珠</strong>。
+							<p>
+								這意味著能夠識別和處理炸彈珠（在演算法中考慮到爆炸）。<br />
+								但受運算量限制，這並不保證能徹底消除所有的炸彈珠。
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.9.1</h3>
+					<ul>
+						<li> 
+							新功能：<strong class="blue">起始路徑</strong>模式。
+							<p>
+								有時候, 你想給演算法一點人工智慧的説明。現在可以了：你可以先設定起始的路徑（比如拉個十字等），演算法會接著你結束部分繼續運算。
+							</p>
+							<p>
+								您可以在懸浮窗的“選項”中找到此新模式。
+                            </p>
+						</li>
+						<li>
+								增加一些隊長技能（<strong class="blue">光克(猶格)</strong>, <strong class="blue">暗央(靈央)</strong>, <strong class="blue">木根(奧丁龍)</strong>, <strong class="blue">劾龍喚士・尼絲</strong>）。
+						</li>
+					</ul>	
+				<h3>Version 1.9.0</h3>
+					<ul>
+						<li>
+							添加了路徑探索<strong class="blue">512次雲端求解</strong>訂閱.
+							<p>
+								如果您希望更改您的訂閱，請先從Google Play市場中取消當前訂閱，並等到它完成（可能是幾天），一旦它不再工作就可以切換。
+							</p>
+						</li>
+						<li>
+							在回復模式中增加了<strong class="blue">一豎心追打</strong>。
+						</li>
+						<li>
+							在未正確識別版面時添加了回退。
+						</li>
+						<li>
+							添加了在手動模式下可以讀取版面歷史紀錄。
+						</li>
+						<li>
+							當未正確識別寶珠時，將自動重定向到到手動模式。
+						</li>
+						<li>
+							本應用現在只在有至少15個寶珠正確識別時，才上傳識別嚴重出錯的寶珠圖片（防止應用程式發送無用的圖像，比如龍族拼圖以外的螢幕截圖）。
+						</li>
+					</ul>
+				<h3>Version 1.8.4</h3>
+					<ul>
+						<li>
+							新增了寶珠檢測模式
+						</li>
+					</ul>
+				<h3>Version 1.8.3</h3>
+					<ul>
+						<li>
+							Added some new leader skills (<strong class="blue">Dark Athena</strong>, <strong class="blue">Light Metatron</strong>, <strong class="blue">Xiang Mei</strong>, <strong class="blue">Voltron</strong>).
+						</li>
+						<li>
+							Added an <strong class="blue">End-user license agreement</strong>.
+							<p>
+								You will have to agree to it in order to use this app.
+							</p> 
+						</li>
+						<li>
+							Minor other fixes
+						</li>
+					</ul>
+				<h3>Version 1.8.2</h3>
+					<ul>
+						<li>
+							Complete refactoring of the board detection algorithm, still trying to fix problems in new devices.
+						</li>
+					</ul>
+				<h3>Version 1.8.1</h3>
+					<ul>
+						<li>
+							Some work on board detection in order to fix problems in new devices (S8).
+						</li>
+						<li>
+							Added the <strong class="blue">Low opacity</strong> mode for the overlay in the options page.
+						</li>
+					</ul>
+				<h3>Version 1.8.0</h3>
+					<ul>
+						<li>
+							The <strong class="blue">Debug mode</strong> is now automatically stopping after 10 minutes.
+						</li>
+						<li>
+							Several fixes in the <strong class="blue">Board detection algorithm</strong> and the path drawing.
+							<p>
+								Hopefully this will fix the Samsung S8 problem !
+							</p>
+							<p class="red">
+								There is a possibility of regression (ie : the path will not be aligned anymore) with all devices. Please notify me ASAP if you notice a problem !
+							</p>
+						</li>
+						<li> 
+							The <strong class="blue">TensorFlow™</strong> native Android library was added to the app (~20 Mo). Sorry for the huge size.
+							<p>
+                                With this library, I will be able to use <strong class="blue">machine learning</strong> to detect the orbs color. It should be more consistent, and will reduce the number of bad detections.
+                            </p>
+                            <p>
+                            	The app now sends a small orb image (48x48) when it doesn't recognize it. You can disable this feature if you want (in the option page), but I advise you not to.
+                            </p>
+						</li>
+					</ul>
+				<h3>Version 1.7.2</h3>
+					<ul>
+						<li> 
+							New feature : <strong class="blue">Exclude orbs</strong>.
+							<p>
+                                You can activate it in the "Profiles" menu of the <u>overlay</u> ! This feature will let you choose which orbs to keep for next turn !
+                            </p>
+						</li>
+					</ul>
+				<h3>Version 1.7.1</h3>
+					<ul>
+						<li>
+							Added a new leader skill (<strong class="blue">Zuoh</strong>).
+                        </li>
+						<li>
+							Updated the connectivity test in the help page.
+							<p>
+								Only for debug purpose.
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.7.0</h3>
+					<ul>
+						<li>
+							The <strong class="blue">store</strong> has been refactored, it is now available on its own page.
+						</li>
+						<li>
+							The <strong class="blue">changelog</strong> has been refactored too, it is now available on its own page.
+						</li>
+						<li>
+							The <strong class="blue">webview</strong> in the home page has been modified to include only some news/infos.
+						</li>
+					</ul>
+				<h3>Version 1.6.10</h3>
+					<ul>
+						<li>
+							The <strong class="blue">timer</strong> now starts on <i>touch</i> (when you first touch the screen after finding solutions).
+						</li>
+						<li>
+                            Added some new leader skills (<strong class="blue">Hel</strong>, <strong class="blue">Tifa</strong>, <strong class="blue">Lightning</strong>, <strong class="red">Noctis</strong>, <strong class="blue">Yuna</strong>).
+							<p>
+								/!\ You should select a <strong class="blue">high Path Number Scaling</strong> (256+) to get good results.
+							</p>
+							<p class="red">
+								Even with a high Path Number Scaling, you will face problems getting good results for Noctis (and Kinnikuman)... Sorry, I couldn't improve the algo to be consistent for these sort of leaders...
+							</p>
+						</li>
+						<li>
+                            Minor update of the calibrator (fixes a problem on 7x6 boards for a specific device : Kyocera Hydro View)
+							<p>
+								Don't forget that if you have some problems detecting the orbs, you can contact me and I'll do my best to update the calibrator !
+							</p>
+                        </li>
+						<li>
+							Increased the maximum path length to 50 ! <i>(Alpha only)</i>
+						</li>
+					</ul>
+				<h3>Version 1.6.9</h3>
+					<ul>
+						<li>
+							You can now select the <strong class="blue">starting orbs</strong> (from which the paths will begin).
+							<p>
+								This feature is available in the <strong class="blue">manual board setting</strong> mode.
+							</p>
+							<p>
+								This will prove useful in the Myr dungeon for example.
+							</p>
+						</li>
+						<li>
+                            Added some new leader skills (<strong class="blue">Sherias Roots</strong>, <strong class="blue">Awoken Hermes</strong>, <strong class="blue">Krishna</strong>, <strong class="blue">Awoken Kushi</strong>, <strong class="blue">Awoken U&amp;Y</strong>, <strong class="blue">Ilm</strong>).
+                        </li>
+					</ul>
+				<h3>Version 1.6.8</h3>
+					<ul>
+						<li>
+							Added a Tips section
+						</li>
+						<li>
+							Added some new leader skills (<strong class="blue">Trailokya</strong>, <strong class="blue">Tamazo X Awoken Odin</strong>) and updated <strong class="blue">Acala</strong> leader skill (now wood and fire crosses).
+							<p>
+								/!\ As usual, you should select a <strong class="blue">high Path Number Scaling</strong> (256+) to get good results.
+							</p>
+                        </li>
+						<li>
+							Moved the notifications, as they were previously located on top of the board...
+						</li>
+					</ul>
+				<h3>Version 1.6.7</h3>
+					<ul>
+						<li>
+							Small fix on the calibrator.
+						</li>
+						<li>
+							Added a new leader skill (<strong class="blue">Xiu Min</strong>).
+                        </li>
+					</ul>
+				<h3>Version 1.6.6</h3>
+					<ul>
+						<li>
+							Added some new leader skills (<strong class="blue">Paimon</strong>, <strong class="blue">Acala</strong>, <strong class="blue">Dantalion</strong>, <strong class="blue">Sitri</strong>, <strong class="blue">Ace Bastet</strong>).
+							<p>
+								/!\ As usual, you should select a <strong class="blue">high Path Number Scaling</strong> (256+) to get good results.
+							</p>
+                        </li>
+					</ul>
+				<h3>Version 1.6.5</h3>
+					<ul>
+						<li> 
+							Fixed a sorting issue in the solution list.
+							<p>
+								It was impossible to sort by jammer, poison or mortal poison orbs.
+							</p>
+						</li>
+						<li>
+							Added a connectivity test in the help page.
+							<p>
+								Only for debug purpose.
+							</p>
+						</li>
+						<li>
+                            Added some new leader skills (<strong class="blue">Rurouni</strong>, <strong class="blue">Sarasvati (UUEVO JP leader skill)</strong>).
+                        </li>
+					</ul>
+				<h3>Version 1.6.4</h3>
+					<ul>
+						<li> 
+							New feature : <strong class="blue">Recovery mode</strong>.
+							<p>
+                                You can activate it in the "Profiles" menu of the <u>overlay</u> ! This feature will select in prioriry heart orbs.
+                            </p>
+							<p>
+								/!\ As usual, for the row (or cross) recovery mode, you should select a <strong class="blue">high Path Number Scaling</strong> to get good results.
+							</p>
+						</li>
+						<li>
+                            Added some new leader skills (<strong class="blue">Yomi Dragon</strong>, <strong class="blue">Fenrir</strong>).
+                        </li>
+					</ul>
+				<h3>Version 1.6.3</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Enhanced orbs</strong> support. <i>(experimental)</i>
+							<p>
+                                Not really helpful is most situations, but this feature was asked by some users (to help with leaders like Sumire, etc).
+                            </p>
+						</li>
+					</ul>
+				<h3>Version 1.6.2</h3>
+					<ul>
+						<li> 
+							Added <strong class="blue">Kinnikuman</strong> leader skill. <i>(experimental)</i>
+							<p>
+                                /!\ Warning : this new leader skill require a <strong class="blue">very high Path Number Scaling</strong> ( > 256, or even 512/1024 ) to work consistently.
+                            </p>
+						</li>
+					</ul>
+				<h3>Version 1.6.1</h3>
+					<ul>
+						<li> 
+							Added <strong class="blue">You Yu</strong> leader skill.
+						</li>
+					</ul>
+				<h3>Version 1.6</h3>
+					<ul>
+						<li>
+							Several fixes for the <strong class="blue">Remote solver</strong>.
+						</li>
+						<li>
+							Added some new leader skills : <strong class="blue">Myr</strong>, <strong class="blue">Gremory</strong>, <strong class="blue">Ronove</strong>
+							<p>
+                                /!\ Warning : these new leader skills require a <strong class="blue">very high Path Number Scaling</strong> ( > 256, or even 512/1024 ) to work consistently.
+                            </p>
+						</li>
+						<li>
+							Added a new database (Realm.io) to log errors. Don't forget to check the 'Error logs' checkbox at the end of the option page !
+							<p>
+								This modification has increased the size of the app, but it's way better than the old system I had.
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.5</h3>
+                    <ul>
+                        <li>
+                            New feature : <strong class="blue">Remote solver</strong>.
+                            <p>
+                                This is a premium feature : You can access the unlimited use of the remote solver by subscribing (monthly) to the app.
+                            </p>
+							<p>
+								Two packages are available (128, 256) with corresponding limits in Path Number Scaling.
+							</p>
+                        </li>
+						<li>
+							The solver engine was refactored, to comply with the evolution of the game (cross leaders, etc).
+							<p>
+								/!\ Warning : All your custom profiles will be erased (because the way I saved them had to change...); I'm sorry for the inconvenience.
+							</p>
+							<p>
+                                /!\ Warning 2 : Cross leaders need a <strong class="blue">very high Path Number Scaling</strong> ( > 256, or even 512/1024 ) to work consistently.
+                            </p>
+						</li>
+						<li>
+							Custom profiles page was also refactored.
+							<p>
+								You can now set rows and tpa more precisely to accomodate your needs.
+							</p>
+						</li>
+                    </ul>
+				<h3>Version 1.4.2</h3>
+                    <ul>
+                        <li>
+                            Added some new leader skills (<strong class="blue">Kaede</strong>, <strong class="blue">Sumire</strong>, <strong class="blue">Awoken DQXQ</strong>).
+                            <p>
+                                /!\ Warning : Kaede and Sumire are experimental leader skills, and they only work with a <strong class="blue">high Path Number Scaling</strong> ( > 256 )
+                            </p>
+                        </li>
+                    </ul>
+				<h3>Version 1.4.1</h3>
+					<ul>
+						<li>
+							Preparatory work on a new feature : <strong class="blue">Remote solver</strong>.
+							<p>
+								This will be a premium feature; you can already test the performance of the remote solver in the option page.
+								Please don't hesitate to contact me if the remote solve test doesn't work. Thanks.
+							</p>
+						</li>
+						<li>
+							Solved an orb misclassification problem occuring when several blind orbs where present on the board.
+						</li>
+						<li>
+							Added some new leader skills (<strong class="blue">Cecil</strong>, <strong class="blue">Amberjack</strong>).
+						</li>
+					</ul>
+				<h3>Version 1.4</h3>
+					<ul>
+						<li>
+							Some progress on <strong class="blue">mortal poison</strong> orb support <i>(still waiting on more data to refine the orb detection)</i>
+						</li>
+						<li> 
+							New way for selecting orb color in the <strong class="blue">manual board setting</strong> mode 
+						</li>
+					</ul>
+				<h3>Version 1.3.4</h3>
+					<ul>
+						<li>
+							Small progress on <strong class="blue">mortal poison</strong> orb support <i>(waiting on more data to refine the orb detection)</i>
+						</li>
+						<li> 
+							Some small cyan dots are added on the corners on the board. 
+							<p>
+								It serves no other purpose than to help me debug those who have a calibration problem. Please tell me if these dots bother you !
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.3.3</h3>
+					<ul>
+						<li>
+							<strong class="blue">Mortal poison</strong> orb partial support <i>(waiting on more data to refine the orb detection)</i>
+							<p>
+								This may have caused some regressions in the app (I had to add a new type of orb and it's not something that easy).
+								<strong>Don't hesitate to report any regression.</strong>
+							</p>
+						</li>
+						<li> 
+							<strong class="blue">Gadius</strong> & <strong class="blue">Typhon</strong> leader skills added
+						</li>
+						<li> 
+							Graphical bug (overlay's `Quit` button not aligned) fixed
+						</li>
+					</ul>
+				<h3>Version 1.3.2</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Path drawing size</strong> option added
+							<p>
+								 You can now choose the overlay path size
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.3.1</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Manual board setting</strong> mode fixed (it was not working...)
+						</li>
+					</ul>
+				<h3>Version 1.3</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Google Drive</strong> support <i>(experimental)</i>
+							<p>
+								 You can now save and load your custom profiles with Google Drive. Useful if you want to change your phone without losing all your custom profiles !
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.2</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Delete screenshots</strong> option added
+							<p>
+								Choose whether or not you want the app to remove the screenshots you take (only in screenshot mode).
+							</p>
+						</li>
+						<li>
+							<strong class="blue">Error logs</strong> option added
+							<p>
+								You can now help me debug the app. Just check this option, and the crash reports will be automatically sent (when the app starts, after a crash).
+							</p>
+						</li>
+						<li>
+							The app will not crash anymore when facing a black board (after a blind)
+							<p>
+								 Instead you will have a board full of "Jammers". Using the <strong class="blue">manual board setting</strong> mode is highly recommended in these situations.
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.1</h3>
+					<ul>
+						<li> 
+							<strong class="blue">Manual board setting</strong> mode (available under the option menu in the overlay)
+							<p>
+								You can now set manually the board before lauching the path finding algorithm. 
+							</p>
+							<p>
+								Just click on the orbs to set them to the desired color.
+							</p>
+							<p>
+								A button is available to toggle the <i>consistence</i> of the board : it means that you can toggle the transparency and the ability to click through (useful to quickly set the manual board when facing an hidden P&amp;D board).
+							</p>
+						</li>
+						<li>
+							<strong class="blue">Changelog</strong>  is available using a webview <i>(experimental)</i>
+						</li>
+						<li>
+							<strong>Awoken Tsukuyomi</strong> preset modified
+						</li>
+					</ul>
+					
+				<h3>Version 1.0</h3>
+					<ul>
+						<li><strong class="blue">First release</strong></li>
+					</ul>
+			</div>
+		</div>
+	</body>
+</html>

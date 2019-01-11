@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- i18n_suffix is for development purpose - Do not change -->
-    <string name="i18n_suffix" />
+    <string name="i18n_suffix">zh-rTW</string>
     <string name="app_name">龍圖助手</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">設置</string>
