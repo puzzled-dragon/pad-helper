@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- i18n_suffix is for development purpose - Do not change -->
-    <string name="i18n_suffix" />
+    <string name="i18n_suffix">zh-rTW</string>
     <string name="app_name">龍圖助手</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">設置</string>
@@ -211,6 +211,7 @@
     <string name="l_info">團隊中“L字消除攻擊”覺醒(L形消除5珠)的平均數量</string>
     <string name="scp_l">L字</string>
     <string name="profilesLShape">L字</string>
+    <!--▼ Leaders List-->
     <string name="none">無</string>
     <string name="leader_uy">山海</string>
     <string name="leader_kirin">麒麟</string>
@@ -295,8 +296,9 @@
     <string name="leader_mowa">暗精靈王</string>
     <string name="leader_madoo_uevo">火大魔女(炎鎖)</string>
     <string name="leader_ameno_bx">天央(靈命)</string>
-    <string name="leader_madoo_base">Madoo (Base)</string>
-    <string name="leader_raijin_lx">Raijin (L/x)</string>
+    <string name="leader_madoo_base">火大魔女(禁窟)</string>
+    <string name="leader_raijin_lx">雷神(雙鼓)</string>
+    <!--▲ Leaders List-->
     <string name="leader_color_fire">火</string>
     <string name="leader_color_water">水</string>
     <string name="leader_color_wood">木</string>
@@ -453,12 +455,12 @@
     <string name="boardview_forbidden_2">您不能避開一個起手寶珠。</string>
     <string name="error_tflite">設置 TFLITE 解譯器時出錯</string>
     <string name="activity_destroyed">龍圖助手進程被終止 - 關閉所有服務…</string>
-    <string name="manual_train_text">Train Mode</string>
-    <string name="overlay_error_1">Error - Impossible to load Train Mode</string>
-    <string name="train_reset_text">Reset</string>
-    <string name="train_pathlength_text">Path length : %1$s</string>
-    <string name="solutionList_remaining_text">Remaining</string>
-    <string name="train_explain_text1">Trace the path you want and display it as is, or let the algo pick up where you left.</string>
-    <string name="train_display_current_path">Display current path</string>
-    <string name="train_continue_with_solver">Continue with solver</string>
+    <string name="manual_train_text">訓練模式</string>
+    <string name="overlay_error_1">錯誤 - 無法載入訓練模式</string>
+    <string name="train_reset_text">重置</string>
+    <string name="train_pathlength_text">路徑長度 : %1$s</string>
+    <string name="solutionList_remaining_text">剩餘</string>
+    <string name="train_explain_text1">直接繪製你希望顯示的指定路徑，或者將其作為求解器的起始路徑。如果需要修改版面，請從手動模式進入。</string>
+    <string name="train_display_current_path">顯示當前路徑</string>
+    <string name="train_continue_with_solver">求解器繼續運算</string>
 </resources>
