@@ -297,6 +297,10 @@
     <string name="leader_ameno_bx">Ameno (B/x)</string>
     <string name="leader_madoo_base">Madoo (Base)</string>
     <string name="leader_raijin_lx">Raijin (L/x)</string>
+    <string name="leader_rin_tohsaka">Rin Tohsaka</string>
+    <string name="leader_elena_brilliante">Elena Brilliante (R/L)</string>
+    <string name="leader_mega_paimon">Mega Paimon</string>
+    <string name="leader_fatalis">Fatalis</string>
     <!--▲ Leaders List-->
     <string name="leader_color_fire">Fr</string>
     <string name="leader_color_water">Wt</string>
