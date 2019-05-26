@@ -469,4 +469,6 @@
     <string name="train_explain_text1">直接绘制你希望显示的指定路径，或者将其作为求解器的起始路径。如果需要修改版面，请从手动模式进入。</string>
     <string name="train_display_current_path">显示当前路径</string>
     <string name="train_continue_with_solver">求解器继续运算</string>
+    <string name="profilesSquare">3x3</string>
+    <string name="overlay_profiles_square_warning">⚠ The 3x3 block will NOT work when simply using the solver, but you can create a 3x3 block in train mode and let the solver pick up from that.</string>
 </resources>

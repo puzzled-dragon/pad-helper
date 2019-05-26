@@ -468,4 +468,6 @@
     <string name="train_explain_text1">Trace the path you want and display it as is, or let the algo pick up where you left. If you want modify orbs, enter from manual mode.</string>
     <string name="train_display_current_path">Display current path</string>
     <string name="train_continue_with_solver">Continue with solver</string>
+    <string name="profilesSquare">3x3</string>
+    <string name="overlay_profiles_square_warning">⚠ The 3x3 block will NOT work when simply using the solver, but you can create a 3x3 block in train mode and let the solver pick up from that.</string>
 </resources>
