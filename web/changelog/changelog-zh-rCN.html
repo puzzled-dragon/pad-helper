@@ -67,8 +67,12 @@
 				color: red;
 			}
 
+			.normal-font-size {
+				font-size: 14px;
+			}
+
 			h3.alpha:after {
-				content: '（仅测试版）';
+				content: ' (Alpha only)';
 				font-style: italic;
 			}
 		</style>
@@ -77,7 +81,22 @@
 		<div class="container">
 			<h2><u>更新日志：</u></h2>
 			<div class="changelog">
-				<h3 class="alpha">Version 1.17.9</h3>
+				<h3 class="alpha">Version 1.18.0</h3>
+					<ul>
+						<li>
+							完全重写<strong class="blue">配置</strong>选项.
+							<p>
+								现在, 您可以更精确地为当前配置选择附加选项（U、横等）。
+							</p>
+						</li>
+						<li>
+							增加了对 <strong class="blue">3x3 方块</strong>（伤害无效贯通）的部分支持
+							<p>
+								<span class="red normal-font-size">⚠</span> 求解器<strong class="red">无法</strong>直接运算出 3x3 方块，但是你可以从训练模式手动创建 3x3 方块，求解器继续运算时会保留方块。
+							</p>
+						</li>
+					</ul>
+				<h3>Version 1.17.9</h3>
 					<ul>
 						<li>
 							添加新的队长技 (<strong class="blue">神月卡琳（街霸）</strong>, <strong class="blue">冥底神・埃列什基伽勒（暗凯尔特神）</strong>)
