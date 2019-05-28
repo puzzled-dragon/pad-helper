@@ -470,5 +470,5 @@
     <string name="train_display_current_path">显示当前路径</string>
     <string name="train_continue_with_solver">求解器继续运算</string>
     <string name="profilesSquare">3x3</string>
-    <string name="overlay_profiles_square_warning">⚠ The 3x3 block will NOT work when simply using the solver, but you can create a 3x3 block in train mode and let the solver pick up from that.</string>
+    <string name="overlay_profiles_square_warning">⚠ 求解器无法直接运算出 3x3 方块，但是你可以从训练模式手动创建 3x3 方块，求解器继续运算时会保留方块。</string>
 </resources>
