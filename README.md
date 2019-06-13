@@ -1,12 +1,16 @@
-﻿P&D Helper Language Localisation Preject
+﻿*P&D Helper* Language Localisation Preject
 ======
-**This project is a public project that is localized for P&D Helper.** But the P&D Helper itself is not public project.
+**This project is a public project that is localized for *P&D Helper*.** But the **P&D Helper** itself is not public project.
 
-NOTICE: "P&D Helper" by Babos Technology is NOT an official app for Puzzle & Dragons.
+NOTICE: **P&D Helper** by Babos Technology is NOT an official app for Puzzle & Dragons.
 
-P&D Helper is a powerful and fully parameterizable app that will help you solve difficult boards in [Puzzle & Dragons](https://www.puzzleanddragons.us/)/[パズル＆ドラゴンズ](http://pad.gungho.jp)
-/[龍族拼圖](https://pad.gungho.jp/hktw/pad/).  
-<a href="https://play.google.com/store/apps/details?id=com.lt.padhelper"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="48"></a>
+**P&D Helper** is a powerful and fully parameterizable app that will help you solve difficult boards in 
+* [パズル＆ドラゴンズ](http://pad.gungho.jp)
+* [龍族拼圖](https://pad.gungho.jp/hktw/pad/)
+* [Puzzle & Dragons](https://www.puzzleanddragons.us/)
+* [퍼즐앤드래곤](https://pad.neocyon.com/W/)
+
+[![Dwonload P&D Helper](https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png)](https://play.google.com/store/apps/details?id=com.lt.padhelper)
 
 # TRANSLATE
 ## How to **Pull requests**
