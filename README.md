@@ -31,7 +31,7 @@ NOTICE: **P&D Helper** by Babos Technology is NOT an official app for Puzzle & D
 1. Translate your HTML files.
 1. Change the `i18n_suffix` node value in your `strings.xml` to your language tag.
 # Languages that are now supported
-| Language Tag | Language variant |
+| Language Tag | Language variant(region) |
 | --- | --- |
 | en | English |
 | zh-rCN | 简体中文（中国） |
