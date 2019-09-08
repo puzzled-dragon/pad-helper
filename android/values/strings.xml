@@ -305,6 +305,7 @@
     <string name="leader_allatu">Allatu</string>
     <string name="leader_yoh">Yoh Asakura</string>
     <string name="leader_mega_skuld">Mega Skuld</string>
+    <string name="leader_beach_veroah">Beach Veroah</string>
     <!--▲ Leaders List-->
     <string name="leader_color_fire">Fr</string>
     <string name="leader_color_water">Wt</string>
@@ -472,4 +473,5 @@
     <string name="train_continue_with_solver">Continue with solver</string>
     <string name="profilesSquare">3x3</string>
     <string name="overlay_profiles_square_warning">⚠ The 3x3 block will NOT work when simply using the solver, but you can create a 3x3 block in train mode and let the solver pick up from that.</string>
+    <string name="unable_to_start_service">The app can\'t start without screencasting.</string>
 </resources>

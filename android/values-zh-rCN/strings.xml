@@ -306,6 +306,7 @@
     <string name="leader_allatu">冥底神(暗凯尔特)</string>
     <string name="leader_yoh">麻仓叶</string>
     <string name="leader_mega_skuld">极醒水时</string>
+    <string name="leader_beach_veroah">Beach Veroah</string>
     <!--▲ Leaders List-->
     <string name="leader_color_fire">火</string>
     <string name="leader_color_water">水</string>
@@ -473,4 +474,5 @@
     <string name="train_continue_with_solver">求解器继续运算</string>
     <string name="profilesSquare">3x3</string>
     <string name="overlay_profiles_square_warning">⚠ 求解器无法直接运算出 3x3 方块，但是你可以从训练模式手动创建 3x3 方块，求解器继续运算时会保留方块。</string>
+    <string name="unable_to_start_service">The app can\'t start without screencasting.</string>
 </resources>
