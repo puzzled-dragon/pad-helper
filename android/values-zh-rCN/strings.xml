@@ -148,10 +148,9 @@
     <string name="optionDeleteScreenshotSubText">应用程序将尝试自动删除您截取的截图</string>
     <string name="profiles_saveCustomProfiles">保存</string>
     <string name="profiles_loadCustomProfiles">载入</string>
-    <string name="saveLoadProfiles">Google Drive</string>
-    <string name="driveRetrieveText1">正在从 Google Drive 中检索自定义配置文件…</string>
-    <string name="driveRetrieveCancel">取消</string>
-    <string name="google_drive_subText">您可以使用 Google Drive 导入/导出自定义配置文件</string>
+    <string name="saveLoadProfiles">Save / Restore</string>
+    <string name="saveLoadProfiles_no_permissions">⚠ The app doesn\'t have the required permissions to read/write to your device storage.</string>
+    <string name="cancel">Cancel</string>
     <string name="optionDrawingSize">路径绘制宽度</string>
     <string name="optionDrawingSizeSubText">选择指导路径的绘制宽度(粗细)</string>
     <string name="solutionList_mortal_text">剧毒</string>
@@ -409,8 +408,6 @@
     <string name="notification_background">切换背景色</string>
     <string name="notification_quit">退出</string>
     <string name="profiles_saved">已保存配置！</string>
-    <string name="google_drive_profile_saved">已保存自定义配置！</string>
-    <string name="google_drive_no_file_created">没有创建文件…</string>
     <string name="options_saved">已保存选项！</string>
     <string name="error_no_email_clients">没有安装电子邮件客户端。</string>
     <string name="help_device_information_title">设备信息</string>
@@ -476,4 +473,13 @@
     <string name="profilesSquare">3x3</string>
     <string name="overlay_profiles_square_warning">⚠ 求解器无法直接运算出 3x3 方块，但是你可以从训练模式手动创建 3x3 方块，求解器继续运算时会保留方块。</string>
     <string name="unable_to_start_service">无屏幕录影功能/权限，APP无法启动。</string>
+    <string name="profiles_custom_save_failed">An error occurred while trying to save the file.</string>
+    <string name="profiles_custom_save_impossible">No external storage found. The profiles were not saved.</string>
+    <string name="profiles_custom_load_impossible">No external storage found. Impossible to load the profiles.</string>
+    <string name="profiles_custom_save_success">The profiles were successfully saved in the Downloads folder of your device.</string>
+    <string name="saveLoadProfiles_subText">Save and restore your custom profiles using your device file storage</string>
+    <string name="saveLoadProfiles_no_permissions_btn">Update permissions</string>
+    <string name="fileDialog_choose_file">Choose a file :</string>
+    <string name="profiles_custom_load_success">Your custom profiles were successfully loaded !</string>
+    <string name="profiles_custom_load_error_reading">Error while reading the file contents</string>
 </resources>

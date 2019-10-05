@@ -147,10 +147,9 @@
     <string name="optionDeleteScreenshotSubText">The app will try to automatically delete the screenshots you take</string>
     <string name="profiles_saveCustomProfiles">Save</string>
     <string name="profiles_loadCustomProfiles">Load</string>
-    <string name="saveLoadProfiles">Google Drive</string>
-    <string name="driveRetrieveText1">Retrieving custom profiles from Google Drive…</string>
-    <string name="driveRetrieveCancel">Cancel</string>
-    <string name="google_drive_subText">You can import/export your custom profiles with Google Drive</string>
+    <string name="saveLoadProfiles">Save / Restore</string>
+    <string name="saveLoadProfiles_no_permissions">⚠ The app doesn\'t have the required permissions to read/write to your device storage.</string>
+    <string name="cancel">Cancel</string>
     <string name="optionDrawingSize">Path drawing size</string>
     <string name="optionDrawingSizeSubText">Choose the size of the path line</string>
     <string name="solutionList_mortal_text">Mrt</string>
@@ -167,7 +166,7 @@
     <string name="title_activity_log">Errors and Warnings</string>
     <string name="profiles_other_options_text">Other options</string>
     <string name="profiles_other_options_heartMode">Recovery mode</string>
-    <string name="store_help">/!\\ You have to make sure that background data is enabled for the remote solver to work.</string>
+    <string name="store_help">⚠ You have to make sure that background data is enabled for the remote solver to work.</string>
     <string name="store_help_connectivy">Check connectivity : </string>
     <string name="store_help_connectivy_extra">(For debug purpose)</string>
     <string name="manual_explain_text3">Set the orbs by sliding onto the correct colors.</string>
@@ -406,8 +405,6 @@
     <string name="notification_background">Background</string>
     <string name="notification_quit">Quit</string>
     <string name="profiles_saved">Profiles saved !</string>
-    <string name="google_drive_profile_saved">Custom profiles saved !</string>
-    <string name="google_drive_no_file_created">No file created...</string>
     <string name="options_saved">Options saved !</string>
     <string name="error_no_email_clients">There are no email clients installed.</string>
     <string name="help_device_information_title">Device Information</string>
@@ -475,4 +472,13 @@
     <string name="profilesSquare">3x3</string>
     <string name="overlay_profiles_square_warning">⚠ The 3x3 block will NOT work when simply using the solver, but you can create a 3x3 block in train mode and let the solver pick up from that.</string>
     <string name="unable_to_start_service">The app can\'t start without screencasting.</string>
+    <string name="profiles_custom_save_failed">An error occurred while trying to save the file.</string>
+    <string name="profiles_custom_save_impossible">No external storage found. The profiles were not saved.</string>
+    <string name="profiles_custom_load_impossible">No external storage found. Impossible to load the profiles.</string>
+    <string name="profiles_custom_save_success">The profiles were successfully saved in the Downloads folder of your device.</string>
+    <string name="saveLoadProfiles_subText">Save and restore your custom profiles using your device file storage</string>
+    <string name="saveLoadProfiles_no_permissions_btn">Update permissions</string>
+    <string name="fileDialog_choose_file">Choose a file :</string>
+    <string name="profiles_custom_load_success">Your custom profiles were successfully loaded !</string>
+    <string name="profiles_custom_load_error_reading">Error while reading the file contents</string>
 </resources>
