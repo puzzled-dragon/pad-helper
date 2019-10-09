@@ -148,7 +148,7 @@
     <string name="optionDeleteScreenshotSubText">应用程序将尝试自动删除您拍摄的截图</string>
     <string name="profiles_saveCustomProfiles">保存</string>
     <string name="profiles_loadCustomProfiles">载入</string>
-    <string name="saveLoadProfiles">导出 / 导入配置</string>
+    <string name="saveLoadProfiles">备份 / 恢复配置</string>
     <string name="saveLoadProfiles_no_permissions">⚠ 本应用未得您设备的储存权限。</string>
     <string name="cancel">取消</string>
     <string name="optionDrawingSize">路径绘制宽度</string>
@@ -474,12 +474,12 @@
     <string name="overlay_profiles_square_warning">⚠ 求解器无法直接运算出 3x3 方块，但是你可以从训练模式手动创建 3x3 方块，求解器继续运算时会保留方块。</string>
     <string name="unable_to_start_service">无屏幕录影功能/权限，应用无法启动。</string>
     <string name="profiles_custom_save_failed">保存文件时发生错误。</string>
-    <string name="profiles_custom_save_impossible">未发现扩展储存，将不会导出配置文件。</string>
-    <string name="profiles_custom_load_impossible">未发现扩展储存，无法导入配置文件。</string>
-    <string name="profiles_custom_save_success">配置文件已经成功导出到您设备的“下载”文件夹。</string>
-    <string name="saveLoadProfiles_subText">导出/导入你的自定义配置文件到本地储存。</string>
+    <string name="profiles_custom_save_impossible">未发现扩展储存，将不会备份配置文件。</string>
+    <string name="profiles_custom_load_impossible">未发现扩展储存，无法恢复配置文件。</string>
+    <string name="profiles_custom_save_success">配置文件已经成功备份到您设备的“下载”文件夹。</string>
+    <string name="saveLoadProfiles_subText">备份 / 恢复你的自定义配置文件到设备本地储存。</string>
     <string name="saveLoadProfiles_no_permissions_btn">授予权限</string>
-    <string name="fileDialog_choose_file">选择一个文件：</string>
-    <string name="profiles_custom_load_success">成功导入自定义配置文件！</string>
+    <string name="fileDialog_choose_file">选择配置文件：</string>
+    <string name="profiles_custom_load_success">成功恢复自定义配置文件！</string>
     <string name="profiles_custom_load_error_reading">读取文件内容时发生错误。</string>
 </resources>
