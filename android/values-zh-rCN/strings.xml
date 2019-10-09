@@ -146,8 +146,8 @@
     <string name="optionAuthorizeSendLogSubText">允许应用程序向开发人员发送故障日志</string>
     <string name="optionDeleteScreenshot">删除截图？</string>
     <string name="optionDeleteScreenshotSubText">应用程序将尝试自动删除您拍摄的截图</string>
-    <string name="profiles_saveCustomProfiles">保存</string>
-    <string name="profiles_loadCustomProfiles">载入</string>
+    <string name="profiles_saveCustomProfiles">备份</string>
+    <string name="profiles_loadCustomProfiles">恢复</string>
     <string name="saveLoadProfiles">备份 / 恢复配置</string>
     <string name="saveLoadProfiles_no_permissions">⚠ 本应用未得您设备的储存权限。</string>
     <string name="cancel">取消</string>
