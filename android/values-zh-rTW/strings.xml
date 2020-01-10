@@ -307,6 +307,7 @@
     <string name="leader_mega_skuld">極醒水時</string>
     <string name="leader_beach_veroah">泳裝暗魔女</string>
     <string name="leader_tifa_uevo">蒂法(光橫)</string>
+    <string name="leader_minaka_uevo">Minaka (uevo)</string>
     <!--▲ Leaders List-->
     <string name="leader_color_fire">火</string>
     <string name="leader_color_water">水</string>
@@ -434,6 +435,7 @@
     <string name="overlay_cross">十字</string>
     <string name="overlay_column">豎(|)</string>
     <string name="overlay_l_shape">L字</string>
+    <string name="overlay_square">3x3</string>
     <string name="solver_null_error">NULL錯誤 - 切換到本地求解…</string>
     <string name="solver_unknown_error">未知錯誤 - 切換到本地求解…</string>
     <string name="solver_local_error">本地錯誤 %1$s - 切換到本地求解…</string>
@@ -482,4 +484,6 @@
     <string name="fileDialog_choose_file">選擇配置檔案：</string>
     <string name="profiles_custom_load_success">成功恢復自定義配置檔案！</string>
     <string name="profiles_custom_load_error_reading">讀取檔案內容時發生錯誤。</string>
+    <string name="optionPathDrawingDurationSubText">The total time spent to draw the path</string>
+    <string name="optionPathDrawingDuration">Path drawing duration : %1$.1fs</string>
 </resources>

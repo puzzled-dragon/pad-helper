@@ -306,6 +306,7 @@
     <string name="leader_mega_skuld">Mega Skuld</string>
     <string name="leader_beach_veroah">Beach Veroah</string>
     <string name="leader_tifa_uevo">Tifa (uevo)</string>
+    <string name="leader_minaka_uevo">Minaka (uevo)</string>
     <!--▲ Leaders List-->
     <string name="leader_color_fire">Fr</string>
     <string name="leader_color_water">Wt</string>
@@ -431,6 +432,7 @@
     <string name="overlay_cross">Cross</string>
     <string name="overlay_column">Column</string>
     <string name="overlay_l_shape">L-Shape</string>
+    <string name="overlay_square">3x3</string>
     <string name="solver_null_error">NULL Error - Switching to phone solver...</string>
     <string name="solver_unknown_error">Unknown Error - Switching to phone solver...</string>
     <string name="solver_local_error">Local error %1$s - Switching to phone solver...</string>
@@ -481,4 +483,6 @@
     <string name="fileDialog_choose_file">Choose a file :</string>
     <string name="profiles_custom_load_success">Your custom profiles were successfully loaded !</string>
     <string name="profiles_custom_load_error_reading">Error while reading the file contents</string>
+    <string name="optionPathDrawingDurationSubText">The total time spent to draw the path</string>
+    <string name="optionPathDrawingDuration">Path drawing duration : %1$.1fs</string>
 </resources>
