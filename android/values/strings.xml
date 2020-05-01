@@ -307,6 +307,9 @@
     <string name="leader_beach_veroah">Beach Veroah</string>
     <string name="leader_tifa_uevo">Tifa (uevo)</string>
     <string name="leader_minaka_uevo">Minaka (uevo)</string>
+    <string name="leader_yugi">Yugi</string>
+    <string name="leader_nelle">Nelle</string>
+    <string name="leader_alice_sao">Alice (SAO)</string>
     <!--▲ Leaders List-->
     <string name="leader_color_fire">Fr</string>
     <string name="leader_color_water">Wt</string>
@@ -485,4 +488,5 @@
     <string name="profiles_custom_load_error_reading">Error while reading the file contents</string>
     <string name="optionPathDrawingDurationSubText">The total time spent to draw the path</string>
     <string name="optionPathDrawingDuration">Path drawing duration : %1$.1fs</string>
+    <string name="home_remote_status">⚠ The remote servers are down for maintenance.\nSorry for the inconvenience.</string>
 </resources>
