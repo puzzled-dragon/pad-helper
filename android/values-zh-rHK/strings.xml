@@ -307,7 +307,7 @@
     <string name="leader_mega_skuld">極醒水時</string>
     <string name="leader_beach_veroah">泳裝暗魔女</string>
     <string name="leader_tifa_uevo">蒂法(光橫)</string>
-    <string name="leader_minaka_uevo">Minaka (uevo)</string>
+    <string name="leader_minaka_uevo">箏龍樂士(水橫)</string>
     <string name="leader_yugi">Yugi</string>
     <string name="leader_nelle">Nelle</string>
     <string name="leader_alice_sao">Alice (SAO)</string>
@@ -487,7 +487,7 @@
     <string name="fileDialog_choose_file">選擇配置文件：</string>
     <string name="profiles_custom_load_success">成功恢復自定義配置文件！</string>
     <string name="profiles_custom_load_error_reading">讀取文件內容時發生錯誤。</string>
-    <string name="optionPathDrawingDurationSubText">The total time spent to draw the path</string>
-    <string name="optionPathDrawingDuration">Path drawing duration : %1$.1fs</string>
+    <string name="optionPathDrawingDurationSubText">繪製路徑所花費的總時間</string>
+    <string name="optionPathDrawingDuration">路徑繪製時間 : %1$.1fs</string>
     <string name="home_remote_status">⚠ The remote servers are down for maintenance.\nSorry for the inconvenience.</string>
 </resources>
