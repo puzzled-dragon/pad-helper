@@ -308,9 +308,9 @@
     <string name="leader_beach_veroah">泳裝暗魔女</string>
     <string name="leader_tifa_uevo">蒂法(光橫)</string>
     <string name="leader_minaka_uevo">箏龍樂士(水橫)</string>
-    <string name="leader_yugi">Yugi</string>
-    <string name="leader_nelle">Nelle</string>
-    <string name="leader_alice_sao">Alice (SAO)</string>
+    <string name="leader_yugi">武藤遊戲</string>
+    <string name="leader_nelle">網襪7x6暗魔女</string>
+    <string name="leader_alice_sao">愛麗絲(刀劍神域)</string>
     <!--▲ Leaders List-->
     <string name="leader_color_fire">火</string>
     <string name="leader_color_water">水</string>
@@ -489,5 +489,5 @@
     <string name="profiles_custom_load_error_reading">讀取檔案內容時發生錯誤。</string>
     <string name="optionPathDrawingDurationSubText">繪製路徑所花費的總時間</string>
     <string name="optionPathDrawingDuration">路徑繪製時間 : %1$.1fs</string>
-    <string name="home_remote_status">⚠ The remote servers are down for maintenance.\nSorry for the inconvenience.</string>
+    <string name="home_remote_status">⚠ 雲伺服器已關閉以進行維護。\n很抱歉給您帶來不便。</string>
 </resources>
