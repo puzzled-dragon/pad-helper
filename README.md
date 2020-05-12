@@ -1,6 +1,6 @@
-﻿*P&D Helper* Language Localisation Preject
+﻿*P&D Helper* Language Localisation Project
 ======
-**This project is a public project that is localized for *P&D Helper*.** But the **P&D Helper** itself is not public project.
+**This project is a public project that is localized for *P&D Helper*.** But the **P&D Helper** itself is not a public project.
 
 NOTICE: **P&D Helper** by Babos Technology is NOT an official app for Puzzle & Dragons.
 
