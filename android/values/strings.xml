@@ -312,6 +312,9 @@
     <string name="leader_alice_sao">Alice (SAO)</string>
     <string name="leader_ultra_new_toragon">Ultra New Toragon</string>
     <string name="leader_raven_hao">Raven Hao</string>
+    <string name="leader_ferule">Ferule</string>
+    <string name="leader_remu">Remu</string>
+    <string name="leader_norza">Norza</string>
     <!--▲ Leaders List-->
     <string name="leader_color_fire">Fr</string>
     <string name="leader_color_water">Wt</string>
