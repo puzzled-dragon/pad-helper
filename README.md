@@ -34,6 +34,6 @@ NOTICE: **P&D Helper** by Babos Technology is NOT an official app for Puzzle & D
 | Language Tag | Language variant(region) |
 | --- | --- |
 | en | English |
-| zh-rCN | 简体中文（中国） |
-| zh-rHK | 繁體中文（香港） |
-| zh-rTW | 繁體中文（台灣） |
+| zh-rCN | 简体中文（大陆习惯） |
+| zh-rHK | 繁體中文（香港习惯） |
+| zh-rTW | 繁體中文（台灣习惯） |
