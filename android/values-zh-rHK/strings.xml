@@ -384,7 +384,7 @@
     <string name="subscription_error_5">刷新庫存 (查詢擁有的訂閲) 時出錯。</string>
     <string name="subscription_error_6">刷新庫存時，發生遠程異常。</string>
     <string name="subscription_error_7">刷新庫存時，解析JSON響應出錯。</string>
-    <string name="subscription_error_8">刷新庫存時，對購買證明進行哈希運算髮生錯誤</string>
+    <string name="subscription_error_8">刷新庫存時，對購買證明進行哈希運算發生錯誤</string>
     <string name="subscription_error_9">訂閲升級不可用。</string>
     <string name="subscription_error_10">無法購買物品</string>
     <string name="subscription_error_11">啓動採購流程時發生遠程異常</string>
